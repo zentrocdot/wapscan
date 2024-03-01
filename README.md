@@ -1,4 +1,4 @@
-# WELCOME To The WapScan Package
+# WELCOME to the WapScan Package
     __      __ __ _  _ __   ___   ___   __ _  _ __     
     \ \ /\ / // _` || '_ \ / __| / __| / _` || '_ \    
      \ V  V /| (_| || |_) |\__ \| (__ | (_| || | | |   
