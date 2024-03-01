@@ -16,6 +16,8 @@
 
 <p align="justify">Now we have a skeleton whith which we can do nothing.</p> 
 
+<p align="justify">The tree structure is as followes:</p> 
+
     ├── wapscan-0.0.0.1-amd
     │   └── debian
     │       ├── changelog
@@ -42,13 +44,24 @@
 
 # Second step.
 
-to-do ...
+    mkdir LICENSE
+
+    mkdir README
+    
+    mkdir -p usr/share/wapscan
+
+    mkdir -p usr/bin
+
+We put all of our files in the directory wapscan.
+
+We put all of the Bash scripts in the directory bin.
+
+<p align="justify">Copy wapscan, wapscan_simple, wapscan_beacon and wapscan_oui into the directory usr/share/wapscan.</p>   
 
 # Create DEB Package
 
     debuild --no-lintian -us -uc -D
     
-
 # Next Step
 
 <p align="justify">Remove all files named <code>wapscan_0.0.0.1-all.orig.*</code>.</p>
