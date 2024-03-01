@@ -29,3 +29,5 @@ This repository will have three parts:
 # References
 
 [1]    www&#8203;.linuxuprising.com/2018/10/how-to-search-available-packages-from.html
+
+[2]    wiki.ubuntuusers.de/WLAN/
