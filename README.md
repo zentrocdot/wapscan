@@ -11,12 +11,14 @@
 
 <p align="justify">Before I started the development I was looking for a good name. After finding a name I checked if there will be a package with the same name [1]. No match said to me that this will be a good name.</p>
 
-# How to work with
+# Repository Organisation 
 
 This repository will have three parts:
 
 1. How to create a DEB
 2. Source code used for packaging
 3. Scripts which are used within the package
+
+# References
 
 [1]    www&#8203;.linuxuprising.com/2018/10/how-to-search-available-packages-from.html
