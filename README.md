@@ -1,6 +1,10 @@
 # README
 
-<p align="justify">This repository consists of <code>Bash</code> based wireless access point scanner for the command line. The user can decide, if he is using the bunch of scripts or if the DEB package is used.</p>
+<p align="justify">This repository consists of <code>Bash</code> based <code>Wireless Access Point Scanner</code> for the command line. The user can decide, if he is using the bunch of scripts or if the DEB package is used.</p>
+
+## Foreword
+
+<p align="justify">I started working on the <code>Wireless Access Point Scanner</code> in the year 2017. The goal was to program a simple wi-fi scanner that has the ability to address different hardware devices. When you are using the scanner you will be ascked which wlan device should be used. Then the data will be collected pretty printed in the terminal window and contiously updated.</p>
 
 ## Prerequisites
 
