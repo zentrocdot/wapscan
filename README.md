@@ -1,6 +1,6 @@
 # README
 
-<p align="justify">This repository consists of Bash based wireless access point scanner for the command line. The user can decide, if he is using the bunch of scripts or if the DEB package is used.</p>
+<p align="justify">This repository consists of <code>Bash</code> based wireless access point scanner for the command line. The user can decide, if he is using the bunch of scripts or if the DEB package is used.</p>
 
 ## Prerequisites
 
