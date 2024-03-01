@@ -7,7 +7,7 @@
 
 ## Foreword
 
-<p align="justify">I started working on the <code>Wireless Access Point Scanner</code> in the year 2017. The goal was to program a simple wi-fi scanner that has the ability to address different hardware devices. When you are using the scanner you will be ascked which wlan device should be used. Then the data will be collected pretty printed in the terminal window and contiously updated.</p>
+<p align="justify">I started working on the <code>Wireless Access Point Scanner</code> in the year 2017. The goal was to program a simple wi-fi scanner that has the ability to address different hardware devices. When you are using the scanner you will be asked which wlan device should be used. Then the data will be collected pretty printed in the terminal window and contiously updated. In 2017 I wrote a bunch of scripts related to Wi-fi or WLAN. For one one I created script which automatically prepared a package manager for packaging a DEB package.</p>
 
 ## Prerequisites
 
