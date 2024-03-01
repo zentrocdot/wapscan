@@ -15,3 +15,4 @@ This repository will have three parts:
 2. Source code used for packaging
 3. Scripts which are used within the package
 
+[1]    www&#8203;.linuxuprising.com/2018/10/how-to-search-available-packages-from.html
