@@ -26,11 +26,11 @@ This repository will have three parts:
 2. Source code used for packaging
 3. Scripts which are used within the package
 
-
+<center>
 <img src="image1.png" alt="Alt text" title="Optional title">
 
 <img src="image2.png" alt="Alt text" title="Optional title">
-
+</center>
 
 # References
 
