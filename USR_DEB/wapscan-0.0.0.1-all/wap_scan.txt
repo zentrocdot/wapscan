@@ -1,0 +1,5 @@
+[42m04:B4:FE:AB:0B:24	7 	2.442	 -51	59/70	FRITZ!Box 7590 CG               	Master	on 	WAP2     	 48 ms   [49m
+7C:DD:90:B2:27:AB	1 	2.412	 -55	55/70	HydraControlCenter              	Master	on 	WAP2     	 2272 ms 
+0C:72:74:FA:87:B8	7 	2.442	 -67	43/70	FRITZ!Box 7590 CG               	Master	on 	WAP2     	 532 ms  
+BC:30:D9:6E:71:66	11	2.462	 -69	41/70	WLAN-350631                     	Master	on 	WAP2     	 48 ms   
+04:B4:FE:A6:DA:4F	7 	2.442	 -71	39/70	FRITZ!Box 7590 CG               	Master	on 	WAP2     	 48 ms   
