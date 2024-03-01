@@ -27,7 +27,9 @@ This repository will have three parts:
 3. Scripts which are used within the package
 
 
-<img src="imgage1.png" alt="Alt text" title="Optional title">
+<img src="image1.png" alt="Alt text" title="Optional title">
+
+<img src="image2.png" alt="Alt text" title="Optional title">
 
 
 # References
