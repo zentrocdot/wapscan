@@ -1,4 +1,4 @@
-# WELCOME
+# WELCOME To The WapScan Package
     __      __ __ _  _ __   ___   ___   __ _  _ __     
     \ \ /\ / // _` || '_ \ / __| / __| / _` || '_ \    
      \ V  V /| (_| || |_) |\__ \| (__ | (_| || | | |   
@@ -9,7 +9,7 @@
 > I started working on this package on March the 1st, 2024. So be patient until I remove this note. At that time, all the necessary information will be included here. The removal of the note is then followed by the usual irregular updating of the software.
 >
 
-# <img src="wlan1.png" width="50" alt="Alt text" title="Optional title"> README
+# <img src="wlan1.png" width="30" alt="Alt text" title="Optional title"> README
 
 <p align="justify">This repository consists of <code>Bash</code> based <code>Wireless Access Point Scanner</code> for the command line. The user can decide, if he is using the bunch of scripts or if the DEB package is used.</p>
 
