@@ -5,10 +5,10 @@
       \_/\_/  \__,_|| .__/ |___/ \___| \__,_||_| |_|   
                     |_|                                
 
-<img src="wlan1.png" width="50" alt="Alt text" title="Optional title"> wapscan package
-
 > [!NOTE]
 > I started working on this package on March the 1st, 2024. So be patient until I remove this note. At that time, all the necessary information will be included here. The removal of the note is then followed by the usual irregular updating of the software.
+>
+> <img src="wlan1.png" width="50" alt="Alt text" title="Optional title"> wapscan package
 
 # README
 
