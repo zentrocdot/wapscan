@@ -1,0 +1,2 @@
+./usr/share/wapscan/oui/* /usr/share/wapscan
+./usr/bin/* /usr/bin

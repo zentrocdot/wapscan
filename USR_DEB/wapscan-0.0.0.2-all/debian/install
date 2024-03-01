@@ -1,0 +1,4 @@
+wapscan usr/bin
+wapscan_simple usr/bin
+wapscan_beacon usr/bin
+wapscan_oui usr/bin
