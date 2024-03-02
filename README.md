@@ -76,7 +76,7 @@ The first data is collected and than the WLAN environment is scanned continously
 Example image with both 2.4 GHz as well as 5 GHz access points.
 
 <center>
-<img src="image3.png" alt="Alt text" title="Optional title">
+<img src="\IMAGES\image3.png" alt="Alt text" title="Optional title">
 </center>
 
 # Program Technical Background
