@@ -1,4 +1,4 @@
-# WELCOME to the WapScan Package
+# Wireless Access Point Scanner
     __      __ __ _  _ __   ___   ___   __ _  _ __     
     \ \ /\ / // _` || '_ \ / __| / __| / _` || '_ \    
      \ V  V /| (_| || |_) |\__ \| (__ | (_| || | | |   
@@ -7,7 +7,6 @@
 
 > [!NOTE]
 > I started working on this package on March the 1st, 2024. So be patient until I remove this note. At that time, all the necessary information will be included here. The removal of the note is then followed by the usual irregular updating of the software.
->
 
 # <img src="wlan1.png" width="24" alt="Alt text" title="Optional title"> README
 
