@@ -33,6 +33,8 @@
   
 <p align="justify">wapscan is the base apllication. wapscan_beacon and wapscan_oui offer further informations. Sometimes it is of interest how often an access point is sending the beacon. This is monitored by wapscan_beacon. It can also be of interest to know the hardware on which the access point runs. The is realised by wapscan_oui.</p>
 
+<p align="justify">The wireless access point scanner is well tested on für wlan on 2.4 GHz. Wlan on 5 GHz were not of interest up to now. So it has also be tested a little bit more.</p>
+
 ## Prerequisites
 
 <p align="justify">The wireless access point scanner will run on Linux Mint and should be also run on Linux Ubunto and also on Debian like operating systems. I developed 
@@ -76,6 +78,14 @@ Example image with both 2.4 GHz as well as 5 GHz access points.
 <center>
 <img src="image3.png" alt="Alt text" title="Optional title">
 </center>
+
+# Program Technical Background
+
+<p align="justify">To avoid reinventing the wheel, I always look for the simplest solutions. I found the tools available at command level suitable for a WLAN scanner.</p>
+
+<p align="justify">I found the tools available at command level suitable for a WLAN scanner.</p>
+
+<p align="justify">I use the tools iw and iwlist. For hardware identification iw is well suited and for WLAN scanning iwlist.</p>
 
 # To-Do
 
