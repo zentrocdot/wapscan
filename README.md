@@ -38,11 +38,11 @@
 <p align="justify">The wireless access point scanner will run on Linux Mint and should be also run on Linux Ubunto and also on Debian like operating systems. I developed 
  the scanner on Linux Mint for usage on Linux Mint.</p>
 
-## Introductory Words
+# Introductory Words
 
 <p align="justify">Before I started the development I was looking for a good name. After finding a name I checked if there will be a package with the same name [1]. No match said to me that this will be a good name.</p>
 
-# Repository Organisation 
+## Repository Organisation 
 
 This repository will have three parts:
 
@@ -50,7 +50,7 @@ This repository will have three parts:
 2. Required directory tree structure for packaging of the DEB package 
 3. Source code in form of some Bash scripts used for packaging
 
-# Look and Feel
+## Look and Feel
 
 <p align="justify">You can run 4 versions:</p>
 
