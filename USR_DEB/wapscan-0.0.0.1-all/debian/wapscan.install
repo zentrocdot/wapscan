@@ -1,4 +1,0 @@
-./LICENSE/* /usr/share/wapscan
-./README/* /usr/share/wapscan
-./usr/share/wapscan/oui/* /usr/share/wapscan
-./usr/bin/* /usr/bin
