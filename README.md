@@ -116,6 +116,8 @@ Example image with both 2.4 GHz as well as 5 GHz access points.
 
 [7]    unix.stackexchange.com/questions/407517/why-did-wireless-tools-version-30-become-a-permanent-beta
 
+[8]    manpages.debian.org/stretch/wireless-tools/iwlist.8.en.html   
+
 <hr width="100%" size="2">
 
 <p align="center">File last modified 02/03/2024</p>
