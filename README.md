@@ -91,6 +91,10 @@ Example image with both 2.4 GHz as well as 5 GHz access points.
 
 <p align="justify">A review of the code is necessary. Since the program is now accessible to the general public, a few additional modifications are necessary.</p>
 
+# Installation
+
+<p align="justify">To use the created DEB package one needs at least Debian 12, Ubuntu Jammy, Mint Vanessa or Rapsian Bookworm. The problem is the internal usage of the zst compression, which was introduced with Debian 12.</p>
+
 # Outlook
 
 <p align="justify">As soon as I'm done here in the repository, I'll see if a PPA is suitable for my first application.</p>
