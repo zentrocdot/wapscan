@@ -14,7 +14,17 @@
 
 ## Foreword
 
-<p align="justify">I started working on the <code>Wireless Access Point Scanner</code> in the year 2017. The goal was to program a simple wi-fi scanner that has the ability to address different hardware devices. When you are using the scanner you will be asked which wlan device should be used. Then the data will be collected pretty printed in the terminal window and contiously updated. In 2017 I wrote a bunch of scripts related to Wi-fi or WLAN. For one one I created script which automatically prepared a package manager for packaging a DEB package.</p>
+<p align="justify">The work on the <code>Wireless Access Point Scanner</code> started in the year 2017. The goal was to program a simple wifi scanner that has the ability to address different wlan hardware devices. After invokation the wireless access point scanner is asking which wlan device should be used for scanning. Then the data will be collected and afterwards pretty printed in the terminal window and after that contiously updated. Next to the wireless access point scanner I wrote over the years a bunch of scripts related to wifi or wlan. For the wireless access point scanner I created a script which automatically prepares a package for packaging as DEB package.</p>
+
+## Short Description
+
+<p align="justify">The wireless access point scanner is listing 2.4 GHz as well as 5 GHz access points. Four versions of the wireless access point scanner can be used. But only three of them are of interest:</p>
+
+1. wapscan
+2. wapscan_beacon
+4. wapscan_oui
+  
+<p align="justify">wapscan is the base apllication. wapscan_beacon and wapscan_oui offer further informations. Sometimes it is of interest how often an access point is sending the beacon. This is monitored by wapscan_beacon. It can also be of interest to know the hardware on which the access point runs. The is realised by wapscan_oui.</p>
 
 ## Prerequisites
 
