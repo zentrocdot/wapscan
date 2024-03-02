@@ -1,0 +1,13 @@
+Source: wapscan
+Section: unknown
+Priority: optional
+Maintainer: Dr. Peter Netz <hades@unknown>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.6.0
+Rules-Requires-Root: no
+
+Package: wapscan
+Architecture: all
+Depends: ${misc:Depends}, wireless-tools (>=30~pre9-13.1)
+Description: Wireless Access Point Scanner
+ Scanning for wireless access points nearby

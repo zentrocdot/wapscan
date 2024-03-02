@@ -1,0 +1,10 @@
+Package: wapscan
+Version: 0.0.0.1-all-1
+Architecture: all
+Maintainer: Dr. Peter Netz <hades@unknown>
+Installed-Size: 1384
+Depends: wireless-tools (>= 30~pre9-13.1)
+Section: unknown
+Priority: optional
+Description: Wireless Access Point Scanner
+ Scanning for wireless access points nearby
