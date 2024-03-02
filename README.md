@@ -102,21 +102,42 @@ Example image with both 2.4 GHz as well as 5 GHz access points.
 
 # References
 
-[1]    www&#8203;.linuxuprising.com/2018/10/how-to-search-available-packages-from.html
+[1]    github.com/HewlettPackard/wireless-tools
 
-[2]    wiki.ubuntuusers.de/WLAN/
+[2]    manpages.debian.org/stretch/wireless-tools/iwlist.8.en.html   
 
-[3]    www&#8203;.hpl.hp.com/personal/Jean_Tourrilhes/Linux/Tools.html
+[3]    packages.debian.org/sid/wireless-tools
 
-[4]    wireless.wiki.kernel.org/en/users/documentation/iw
+[4]    unix.stackexchange.com/questions/407517/why-did-wireless-tools-version-30-become-a-permanent-beta
 
-[5]    github.com/HewlettPackard/wireless-tools
+[5]    wiki.ubuntuusers.de/WLAN/
 
-[6]    packages.debian.org/sid/wireless-tools
+[6]    wireless.wiki.kernel.org/en/users/documentation/iw
 
-[7]    unix.stackexchange.com/questions/407517/why-did-wireless-tools-version-30-become-a-permanent-beta
+[7]    www&#8203;.hpl.hp.com/personal/Jean_Tourrilhes/Linux/Tools.html
 
-[8]    manpages.debian.org/stretch/wireless-tools/iwlist.8.en.html   
+[8]    www&#8203;.linuxuprising.com/2018/10/how-to-search-available-packages-from.html
+
+<hr width="100%" size="2">
+
+<p align="center">I loved the time when you could get also a hamburger :hamburger: for one euro!</p>
+
+<p align="center">
+<a target="_blank" href="https://www.buymeacoffee.com/zentrocdot"><img src="\IMAGES\greeen-button.png" alt="Buy Me A Coffee" height="41" width="174"></a>
+</p>
+
+<hr width="100%" size="2">
+
+## Other ways to donate
+
+<p align="justify">If you like what I present here, or if it helps you, or if it is useful, you are welcome to donate a small contribution or a cup of coffee. Or as you might say: Every TRON counts! Many thanks in advance! :smiley:</p>
+
+<pre>TQamF8Q3z63sVFWiXgn2pzpWyhkQJhRtW7            (TRON)
+DMh7EXf7XbibFFsqaAetdQQ77Zb5TVCXiX            (DOGE)
+12JsKesep3yuDpmrcXCxXu7EQJkRaAvsc5            (BITCOIN)
+0x31042e2F3AE241093e0387b41C6910B11d94f7ec    (Ethereum)</pre>
+    
+<hr width="100%" size="2">
 
 <hr width="100%" size="2">
 
