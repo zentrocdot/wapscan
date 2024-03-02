@@ -70,13 +70,7 @@ First, you choose the WLAN device for scanning:
 The first data is collected and than the WLAN environment is scanned continously.
 
 <center>
-<img src="\IMAGES\image2.png" alt="Alt text" title="Optional title">
-</center>
-
-Example image with both 2.4 GHz as well as 5 GHz access points.
-
-<center>
-<img src="\IMAGES\image3.png" alt="Alt text" title="Optional title">
+<img src="\IMAGES\image4.png" alt="Alt text" title="Optional title">
 </center>
 
 # Program Technical Background
