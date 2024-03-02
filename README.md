@@ -76,3 +76,7 @@ The first data is collected and than the WLAN environment is scanned continously
 [1]    www&#8203;.linuxuprising.com/2018/10/how-to-search-available-packages-from.html
 
 [2]    wiki.ubuntuusers.de/WLAN/
+
+<hr width="100%" size="2">
+
+<p align="center">File last modified 02/03/2024</p>
