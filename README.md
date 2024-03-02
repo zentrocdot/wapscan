@@ -95,10 +95,15 @@ Example image with both 2.4 GHz as well as 5 GHz access points.
 
 <p align="justify">A review of the code is necessary. Since the program is now accessible to the general public, a few additional modifications are necessary.</p>
 
-
 # Outlook
 
 <p align="justify">As soon as I'm done here in the repository, I'll see if a PPA is suitable for my first application.</p>
+
+# Challenges while Development
+
+<p align="justify">After writing the first version and the predecessor of the current WLAN scanner, I faced two problems when working on different hardware platforms and operating systems.</p>
+
+<p align="justify">First the output structure of iwlist was different on different operating systems. Second the naming of the wlan devices was different on different operating systems.</p>
 
 # References
 
@@ -117,6 +122,8 @@ Example image with both 2.4 GHz as well as 5 GHz access points.
 [7]    www&#8203;.hpl.hp.com/personal/Jean_Tourrilhes/Linux/Tools.html
 
 [8]    www&#8203;.linuxuprising.com/2018/10/how-to-search-available-packages-from.html
+
+[9]    www&#8203;.freedesktop.org/wiki/Software/systemd/PredictableNetworkInterfaceNames/
 
 <hr width="100%" size="2">
 
@@ -137,8 +144,6 @@ DMh7EXf7XbibFFsqaAetdQQ77Zb5TVCXiX            (DOGE)
 12JsKesep3yuDpmrcXCxXu7EQJkRaAvsc5            (BITCOIN)
 0x31042e2F3AE241093e0387b41C6910B11d94f7ec    (Ethereum)</pre>
     
-<hr width="100%" size="2">
-
 <hr width="100%" size="2">
 
 <p align="center">File last modified 02/03/2024</p>
