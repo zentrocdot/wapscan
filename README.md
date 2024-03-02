@@ -107,7 +107,7 @@ Example image with both 2.4 GHz as well as 5 GHz access points.
 
 # References
 
-[0]    www.debian.org/doc/manuals/maint-guide/dreq.en.html
+[0]    www&#8203;.debian.org/doc/manuals/maint-guide/dreq.en.html
 
 [1]    github.com/HewlettPackard/wireless-tools
 
