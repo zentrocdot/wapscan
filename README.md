@@ -64,13 +64,13 @@ This repository will have three parts:
 First, you choose the WLAN device for scanning:
 
 <center>
-<img src="image1.png" alt="Alt text" title="Optional title">
+<img src="\IMAGES\image1.png" alt="Alt text" title="Optional title">
 </center>
 
 The first data is collected and than the WLAN environment is scanned continously.
 
 <center>
-<img src="image2.png" alt="Alt text" title="Optional title">
+<img src="\IMAGES\image2.png" alt="Alt text" title="Optional title">
 </center>
 
 Example image with both 2.4 GHz as well as 5 GHz access points.
