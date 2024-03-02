@@ -77,6 +77,14 @@ Example image with both 2.4 GHz as well as 5 GHz access points.
 <img src="image3.png" alt="Alt text" title="Optional title">
 </center>
 
+# To-Do
+
+<p align="justify">A review of the code is necessary. Since the program is now accessible to the general public, a few additional modifications are necessary.</p>
+
+# Outlook
+
+<p align="justify">As soon as I'm done here in the repository, I'll see if a PPA is suitable for my first application.</p>
+
 # References
 
 [1]    www&#8203;.linuxuprising.com/2018/10/how-to-search-available-packages-from.html
