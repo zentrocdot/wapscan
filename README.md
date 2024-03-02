@@ -1,9 +1,12 @@
 # Wireless Access Point Scanner
+
+<pre>
     __      __ __ _  _ __   ___   ___   __ _  _ __     
     \ \ /\ / // _` || '_ \ / __| / __| / _` || '_ \    
      \ V  V /| (_| || |_) |\__ \| (__ | (_| || | | |   
       \_/\_/  \__,_|| .__/ |___/ \___| \__,_||_| |_|   
                     |_|                                
+</pre>
 
 > [!NOTE]
 > I started working on this package on March the 1st, 2024. So be patient until I remove this note. At that time, all the necessary information will be included here. The removal of the note is then followed by the usual irregular updating of the software.
