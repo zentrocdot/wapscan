@@ -71,6 +71,12 @@ The first data is collected and than the WLAN environment is scanned continously
 <img src="image2.png" alt="Alt text" title="Optional title">
 </center>
 
+Example image with both 2.4 GHz as well as 5 GHz access points.
+
+<center>
+<img src="image3.png" alt="Alt text" title="Optional title">
+</center>
+
 # References
 
 [1]    www&#8203;.linuxuprising.com/2018/10/how-to-search-available-packages-from.html
