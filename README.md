@@ -101,6 +101,14 @@ Example image with both 2.4 GHz as well as 5 GHz access points.
 
 [2]    wiki.ubuntuusers.de/WLAN/
 
+[3]    www&#8203;.hpl.hp.com/personal/Jean_Tourrilhes/Linux/Tools.html
+
+[4]    wireless.wiki.kernel.org/en/users/documentation/iw
+
+[5]    github.com/HewlettPackard/wireless-tools
+
+[6]    packages.debian.org/sid/wireless-tools
+
 <hr width="100%" size="2">
 
 <p align="center">File last modified 02/03/2024</p>
