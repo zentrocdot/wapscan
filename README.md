@@ -8,7 +8,7 @@ __      __ __ _  _ __   ___   ___   __ _  _ __
                 |_|                                 
 </pre>
 
-> [!INFORMATION]
+> [!TIP]
 > wapscan is now available on launchpad. See section Installation for more informations.
 
 > [!NOTE]
