@@ -40,35 +40,32 @@ The passwords & encryption keys application name is unusually seahorse.
 
     gpg2 --list-keys --keyid-format LONG
 
-# References Unsorted
+# References
 
-[1]   launchpad.net/~zentrocdot/+archive/ubuntu/wapscan-cli-ppa
+[1]   askubuntu.com/questions/1087569/deploying-own-debian-package-to-launchpad
 
 [2]   askubuntu.com/questions/140803/steps-for-creating-a-slightly-modified-package-and-uploading-it-in-a-ppa
 
-[3]    stackoverflow.com/questions/43699845/error-uploading-files-for-distribution-unreleased-to-ppa-not-allowed
+[3]    askubuntu.com/questions/1012403/how-to-upload-build-a-custom-kernel-on-launchpad
 
-[4]    askubuntu.com/questions/1012403/how-to-upload-build-a-custom-kernel-on-launchpad
+[4]    help.launchpad.net/YourAccount/CreatingAnSSHKeyPair
 
-[5]    help.launchpad.net/YourAccount/CreatingAnSSHKeyPair
+[5]    help.launchpad.net/Packaging/PPA/BuildingASourcePackage
 
-[6]    stackoverflow.com/questions/50089033/how-do-i-get-the-changes-file-for-a-debian-package
+[6]    help.launchpad.net/Packaging/PPA/Uploading
 
-[7]    https://help.launchpad.net/Packaging/UploadErrors
+[7]    help.launchpad.net/ReadingOpenPgpMail
 
-[8]    help.ubuntu.com/community/GnuPrivacyGuardHowto
+[8]    help.launchpad.net/Packaging/UploadErrors
 
-[9]    help.launchpad.net/ReadingOpenPgpMail
+[9]    help.ubuntu.com/community/GnuPrivacyGuardHowto
 
-[10]   askubuntu.com/questions/1087569/deploying-own-debian-package-to-launchpad
+[10]   launchpad.net/~zentrocdot/+archive/ubuntu/wapscan-cli-ppa
 
-[11]    help.launchpad.net/Packaging/PPA/BuildingASourcePackage
+[11]    stackoverflow.com/questions/43699845/error-uploading-files-for-distribution-unreleased-to-ppa-not-allowed
 
-[12]    help.launchpad.net/Packaging/PPA/Uploading
+[12]    stackoverflow.com/questions/50089033/how-do-i-get-the-changes-file-for-a-debian-package
 
-[13]    help.launchpad.net/Packaging/PPA#Your_PPA.27s_key
+[13]    stackoverflow.com/questions/46879602/get-fingerprints-of-openpgp-keys
 
 [14]    wiki.ubuntuusers.de/GnuPG/
-
-[15]    stackoverflow.com/questions/46879602/get-fingerprints-of-openpgp-keys
-
