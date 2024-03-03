@@ -81,6 +81,16 @@ The first data is collected and than the WLAN environment is scanned continously
 
 <p align="justify">I use the tools iw and iwlist. For hardware identification iw is well suited and for WLAN scanning iwlist.</p>
 
+# Installation
+
+<p align="justify">The easiest way for the future is to use PPA from Launchpad.</p>
+
+    sudo add-apt-repository ppa:zentrocdot/wapscan-cli-ppa
+    
+    sudo apt update
+
+    sudo apt-get wapscan
+
 # Installation Note
 
 <p align="justify">To use the created DEB package one needs at least Debian 12, Ubuntu Jammy, Mint Vanessa or Rapsian Bookworm. The problem is the internal usage of the zst compression, which was introduced with Debian 12.</p>
