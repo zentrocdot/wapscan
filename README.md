@@ -110,6 +110,10 @@ The first data is collected and than the WLAN environment is scanned continously
 
 <p align="justify">As soon as I'm done here in the repository, I'll see if a PPA is suitable for my first application.</p>
 
+# Planned Further Developments
+
+<p align="justify">At the moment 2.4 GHz as well as 5 GHz wlan access points are recognised. It shuod be possible to decide which one should be monitored.</p>
+
 # Challenges while Development
 
 <p align="justify">After writing the first version and the predecessor of the current WLAN scanner, I faced two problems when working on different hardware platforms and operating systems.</p>
