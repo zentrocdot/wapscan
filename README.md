@@ -8,6 +8,9 @@ __      __ __ _  _ __   ___   ___   __ _  _ __
                 |_|                                 
 </pre>
 
+> [!INFO]
+> wapscan is now available on launchpad. See section Installation for more informations.
+
 > [!NOTE]
 > I started working on this package on March the 1st, 2024. So be patient until I remove this note. At that time, all the necessary information will be included here. The removal of the note is then followed by the usual irregular updating of the software.
 
