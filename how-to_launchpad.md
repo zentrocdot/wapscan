@@ -36,7 +36,7 @@ The passwords & encryption keys application name is unusually seahorse.
 
     sudo apt-get install seahorse
 
-# References
+# References Unsorted
 
 [1]   launchpad.net/~zentrocdot/+archive/ubuntu/wapscan-cli-ppa
 
@@ -51,4 +51,18 @@ The passwords & encryption keys application name is unusually seahorse.
 [6]    stackoverflow.com/questions/50089033/how-do-i-get-the-changes-file-for-a-debian-package
 
 [7]    https://help.launchpad.net/Packaging/UploadErrors
+
+[8]    help.ubuntu.com/community/GnuPrivacyGuardHowto
+
+[9]    help.launchpad.net/ReadingOpenPgpMail
+
+[10]   askubuntu.com/questions/1087569/deploying-own-debian-package-to-launchpad
+
+[11]    help.launchpad.net/Packaging/PPA/BuildingASourcePackage
+
+[12]    help.launchpad.net/Packaging/PPA/Uploading
+
+[13]    help.launchpad.net/Packaging/PPA#Your_PPA.27s_key
+
+[14]    wiki.ubuntuusers.de/GnuPG/
 
