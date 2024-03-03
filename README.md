@@ -67,13 +67,13 @@ This repository will have three parts:
 First, you choose the WLAN device for scanning:
 
 <center>
-<img src="\IMAGES\image1.png" alt="Alt text" title="Optional title">
+<img src="\IMAGES\menu.png" alt="Alt text" title="Optional title">
 </center>
 
 The first data is collected and than the WLAN environment is scanned continously.
 
 <center>
-<img src="\IMAGES\image4.png" alt="Alt text" title="Optional title">
+<img src="\IMAGES\scan.png" alt="Alt text" title="Optional title">
 </center>
 
 # Program Technical Background
