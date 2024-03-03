@@ -36,6 +36,10 @@ The passwords & encryption keys application name is unusually seahorse.
 
     sudo apt-get install seahorse
 
+# Getting the KEY ID
+
+    gpg2 --list-keys --keyid-format LONG
+
 # References Unsorted
 
 [1]   launchpad.net/~zentrocdot/+archive/ubuntu/wapscan-cli-ppa
