@@ -66,3 +66,5 @@ The passwords & encryption keys application name is unusually seahorse.
 
 [14]    wiki.ubuntuusers.de/GnuPG/
 
+[15]    stackoverflow.com/questions/46879602/get-fingerprints-of-openpgp-keys
+
