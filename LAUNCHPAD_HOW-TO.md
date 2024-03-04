@@ -99,3 +99,7 @@ admin, cli-mono, comm, database, debug, devel, doc, editors, education, electron
 [13]    stackoverflow.com/questions/46879602/get-fingerprints-of-openpgp-keys
 
 [14]    wiki.ubuntuusers.de/GnuPG/
+
+[15]    www&#8203;.debian.org/doc/debian-policy/ch-controlfields.html
+
+[16]    askubuntu.com/questions/226495/how-to-solve-dpkg-source-source-problem-when-building-a-package
