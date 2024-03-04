@@ -103,3 +103,5 @@ admin, cli-mono, comm, database, debug, devel, doc, editors, education, electron
 [15]    www&#8203;.debian.org/doc/debian-policy/ch-controlfields.html
 
 [16]    askubuntu.com/questions/226495/how-to-solve-dpkg-source-source-problem-when-building-a-package
+
+[17]    www&#8203;.debian.org/doc/debian-policy/ch-archive.html
