@@ -115,3 +115,5 @@ admin, cli-mono, comm, database, debug, devel, doc, editors, education, electron
 [30]    unix.stackexchange.com/questions/148503/changelog-of-deb-package
 
 [31]    askubuntu.com/questions/579323/dch-non-interactive-mode
+
+[32]    askubuntu.com/questions/754809/whats-the-meaning-of-uc-us-options-in-debuild-uc-us
