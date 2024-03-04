@@ -151,6 +151,18 @@ The first data is collected and than the WLAN environment is scanned continously
                         IE: Unknown: DD1B00905C3406000000000000000000000000000000000000000000
                         IE: Unknown: DD0700E05C0202E0
 
+# Typical Response from IW
+
+    phy#0
+	       Interface wlq6s1
+		      ifindex 2
+		      wdev 0x1
+		      addr 29:fe:53:01:db:46
+		      type managed
+		      txpower 17.00 dBm
+
+
+
 # References
 
 [0]    www&#8203;.debian.org/doc/manuals/maint-guide/dreq.en.html
