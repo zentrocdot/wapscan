@@ -120,6 +120,37 @@ The first data is collected and than the WLAN environment is scanned continously
 
 <p align="justify">First the output structure of iwlist was different on different operating systems. Second the naming of the wlan devices was different on different operating systems.</p>
 
+# Typical Response from IWLIST
+
+    wly97dfd02de607  Scan completed :
+              Cell 01 - Address: 85:BE:26:40:71:25
+                        Channel:6
+                        Frequency:2.437 GHz (Channel 6)
+                        Quality=25/70  Signal level=-65 dBm
+                        Encryption key:on
+                        ESSID:"WlanRouter!BlueMagic"
+                        Bit Rates:1 Mb/s; 2 Mb/s; 5.5 Mb/s; 11 Mb/s; 6 Mb/s
+                                  9 Mb/s; 12 Mb/s; 18 Mb/s
+                        Bit Rates:24 Mb/s; 36 Mb/s; 48 Mb/s; 54 Mb/s
+                        Mode:Master
+                        Extra:tsf=0000000000b0cc48
+                        Extra: Last beacon: 4024ms ago
+                        IE: Unknown: 000F456569565965772E53657475703734
+                        IE: Unknown: 010882847B960C121824
+                        IE: Unknown: 030206
+                        IE: Unknown: 2A0100
+                        IE: Unknown: 32043048606C
+                        IE: Unknown: 2D1B0C181DFF00000000000000000000000000000000000000000000
+                        IE: Unknown: 3D1606000000000000000000000000000000000000000000
+                        IE: IEEE 802.11i/WPA2 Version 1
+                            Group Cipher : CCMP
+                            Pairwise Ciphers (1) : CCMP
+                            Authentication Suites (1) : PSK
+                        IE: Unknown: DD190050F2020102000003A4000027A4000052435E0062322F00
+                        IE: Unknown: DD1E00804C340C181EFF00000000000000000000000000000000000000000000
+                        IE: Unknown: DD1B00905C3406000000000000000000000000000000000000000000
+                        IE: Unknown: DD0700E05C0202E0
+
 # References
 
 [0]    www&#8203;.debian.org/doc/manuals/maint-guide/dreq.en.html
