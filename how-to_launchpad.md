@@ -1,4 +1,4 @@
-# How-To Launchpad
+# Launchpad How-To
 
 <p align="justify">Building a package for <code>Launchpad</code> is a little bit different form building a DEB package for personal use. There are a few more rules to follow.</p>
 
@@ -24,7 +24,7 @@
 
  <p align="justify">A package which has UNRELEASED in the changlog file will be rejected.</p>   
 
-  <p align="justify">The file control has also to be changed.</p>  
+ <p align="justify">The file control has also to be changed.</p>  
 
     Section: unknown    # Results in a rejected package   
 
@@ -32,7 +32,7 @@
 
 Allowed are:
 
-admin, cli-mono, comm, database, debug, devel, doc, editors, education, electronics, embedded, fonts, games, gnome, gnu-r, gnustep, graphics, hamradio, haskell, httpd, interpreters, introspection, java, javascript, kde, kernel, libdevel, libs, lisp, localization, mail, math, metapackages, misc, net, news, ocaml, oldlibs, otherosfs, perl, php, python, ruby, rust, science, shells, sound, tasks, tex, text, utils, vcs, video, web, x11, xfce, zope.
+admin, cli-mono, comm, database, debug, devel, doc, editors, education, electronics, embedded, fonts, games, gnome, gnu-r, gnustep, graphics, hamradio, haskell, httpd, interpreters, introspection, java, javascript, kde, kernel, libdevel, libs, lisp, localization, mail, math, metapackages, misc, net, news, ocaml, oldlibs, otherosfs, perl, php, python, ruby, rust, science, shells, sound, tasks, tex, text, utils, vcs, video, web, x11, xfce, zope
 
 # Create Package for Distribution
 
@@ -40,29 +40,29 @@ admin, cli-mono, comm, database, debug, devel, doc, editors, education, electron
 
     dh_make -y --indep --createorig
 
-Thean use debuild.
+<p align="justify">Thean use debuild.</p>  
 
     debuild -S -sa    # New from scratch
 
     debuild -S -sd    # Difference build
 
-Ignore the signing error.
+<p align="justify">Ignore the signing error.</p>  
 
-Change to the parent directory.
+<p align="justify">Change to the parent directory.</p> 
 
     debsign -k <key-ID> wapscan_0.0.0.1-all-1_source.changes
 
-Afterwards the package can be uploaded.
+<p align="justify">Afterwards the package can be uploaded.</p> 
 
     dput ppa:zentrocdot/wapscan-cli-ppa wapscan_0.0.0.1-all-1_source.changes
 
-If one makes changes, fore upload.
+<p align="justify">If one makes changes, fore upload.</p> 
 
     dput --force ppa:zentrocdot/wapscan-cli-ppa wapscan_0.0.0.1-all-1_source.changes
 
 # Passwords & Encryption Keys Application
 
-The passwords & encryption keys application name is unusually seahorse.
+<p align="justify">The passwords & encryption keys application name is unusually seahorse.</p> 
 
     sudo apt-get install seahorse
 
