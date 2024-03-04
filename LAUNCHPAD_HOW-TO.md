@@ -111,3 +111,5 @@ admin, cli-mono, comm, database, debug, devel, doc, editors, education, electron
 [19]   www&#8203;.debian.org/doc/manuals/maint-guide/build.en.html
 
 [20]    debian-handbook.info/browse/stable/sect.package-meta-information.html
+
+[30]    unix.stackexchange.com/questions/148503/changelog-of-deb-package
