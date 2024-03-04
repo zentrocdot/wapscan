@@ -185,6 +185,12 @@ The first data is collected and than the WLAN environment is scanned continously
 
 [9]    www&#8203;.freedesktop.org/wiki/Software/systemd/PredictableNetworkInterfaceNames/
 
+[10]    wiki.ubuntuusers.de/WiFi_Radar/
+
+[11]    wifi-radar.tuxfamily.org/pub/
+
+[12]    https://wiki.ubuntuusers.de/LinSSID/
+
 <hr width="100%" size="2">
 
 <p align="center">I loved the time when you could get also a hamburger :hamburger: for one euro!</p>
