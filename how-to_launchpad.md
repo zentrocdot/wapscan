@@ -14,6 +14,28 @@
 
     ~/USR_DEB/wapscan-0.0.0.2-all
 
+# Prepare Files
+
+<p align="justify">We have to make some modifications in debian/control and debian/changelog:</p>  
+
+    wapscan (0.0.0.2-all) UNRELEASED; urgency=medium    # Results in a rejected package   
+
+    wapscan (0.0.0.2-all) jammy; urgency=medium
+
+ <p align="justify">A package which has UNRELEASED in the changlog file will be rejected.</p>   
+
+  <p align="justify">The file control has also to be changed.</p>  
+
+    Section: unknown    # Results in a rejected package   
+
+    Section: utils
+
+Allowed are:
+
+admin, cli-mono, comm, database, debug, devel, doc, editors, education, electronics, embedded, fonts, games, gnome, gnu-r, gnustep, graphics, hamradio, haskell, httpd, interpreters, introspection, java, javascript, kde, kernel, libdevel, libs, lisp, localization, mail, math, metapackages, misc, net, news, ocaml, oldlibs, otherosfs, perl, php, python, ruby, rust, science, shells, sound, tasks, tex, text, utils, vcs, video, web, x11, xfce, zope.
+
+# Create Package for Distribution
+
 <p align="justify">using the command dh_make:</p>  
 
     dh_make -y --indep --createorig
