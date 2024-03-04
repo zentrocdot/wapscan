@@ -1,12 +1,20 @@
-# How-to launchpad
+# How-To Launchpad
 
-Building apackage for launchpad is a little bit differne tform building a dEb for personal use.
+<p align="justify">Building a package for <code>Launchpad</code> is a little bit different form building a DEB package for personal use. There are a few more rules to follow.</p>
 
-I am using the structure which I presented in the other How-To as basis.
+<p align="justify">I am using the structure which I presented in the other How-To as basis.</p>
 
-delete all files in the parent folder.
+# Preparation 
 
-First re-creating the tree structure from within the package directory.
+<p align="justify">Delete all package related files in the parent folder.</p>
+
+    ~/USR_DEB
+
+<p align="justify">First re-creating the tree structure from within the package directory e.g.</p>
+
+    ~/USR_DEB/wapscan-0.0.0.2-all
+
+<p align="justify">using the command dh_make:</p>  
 
     dh_make -y --indep --createorig
 
