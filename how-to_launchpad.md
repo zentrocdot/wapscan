@@ -2,7 +2,7 @@
 
 <p align="justify">Building a package for <code>Launchpad</code> is a little bit different form building a DEB package for personal use. There are a few more rules to follow.</p>
 
-<p align="justify">I am using the structure which I presented in the other How-To as basis.</p>
+<p align="justify">I am using the structure which I presented in the other [How-To ](https://github.com/zentrocdot/wapscan_package/blob/main/HOW-TO.md) as basis.</p>
 
 # Preparation 
 
