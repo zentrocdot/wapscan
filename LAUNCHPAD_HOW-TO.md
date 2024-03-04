@@ -113,3 +113,5 @@ admin, cli-mono, comm, database, debug, devel, doc, editors, education, electron
 [20]    debian-handbook.info/browse/stable/sect.package-meta-information.html
 
 [30]    unix.stackexchange.com/questions/148503/changelog-of-deb-package
+
+[31]    askubuntu.com/questions/579323/dch-non-interactive-mode
