@@ -20,7 +20,7 @@ __      __ __ _  _ __   ___   ___   __ _  _ __
 > [!NOTE]
 > I started working on this package on March the 1st, 2024. So be patient until I remove this note. At that time, all the necessary information will be included here. The removal of the note is then followed by the usual irregular updating of the software.
 
-<p align="justify">This repository consists of <code>Bash</code> based <code>Wireless Access Point Scanner</code> for the command line. The user can decide, if he is using the bunch of scripts or if the DEB package is used.</p>
+<p align="justify">This repository consists of a <code>Bash</code> based <code>Wireless Access Point Scanner</code> for the command line. The user can decide, if he is using the bunch of scripts or if the DEB package is used.</p>
 
 ## Foreword
 
