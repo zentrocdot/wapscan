@@ -44,8 +44,7 @@ __      __ __ _  _ __   ___   ___   __ _  _ __
 
 ## Prerequisites
 
-<p align="justify">The wireless access point scanner will run on Linux Mint and should be also run on Linux Ubunto and also on Debian like operating systems. I developed 
- the scanner on Linux Mint for usage on Linux Mint.</p>
+<p align="justify">The wireless access point scanner will run on <code>Linux Mint</code> and should be also run on <code>Linux Ubuntu</code> and also on <code>Debian</code> like operating systems. I developed the scanner on <code>Linux Mint</code> for usage on <code>Linux Mint</code>.</p>
 
 ## Introductory Words
 
