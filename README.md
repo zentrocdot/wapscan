@@ -13,7 +13,7 @@ __      __ __ _  _ __   ___   ___   __ _  _ __
 ### Announcement
 
 > [!TIP]
-> wapscan is in a first version now available on launchpad. See section Installation for more informations about this topic.
+> wapscan is now available on launchpad. For more informations about this topic visit the section Installation.
 
 # README
 
