@@ -1,6 +1,6 @@
 # <img src="\IMAGES\wlan_logo.png" width="24" alt="wapscan logo" title="wapscan logo"> Wireless Access Point Scanner
 
-## Official ASCII Logo
+### Official ASCII Logo
 
 <pre>
 __      __ __ _  _ __   ___   ___   __ _  _ __     
