@@ -4,9 +4,9 @@
 
 <p align="justify">A WLAN Scanner is sometimes called a WLAN sniffer. In the context of this package I prefer the naming WLAN Scanner.</p>
 
-<p align="justify">The initial work on the WLAN Scanner started in the year 2017. Due to problems with the WLAN Environment I needed a simple to use tool to evaluate the router in use.</p>
+<p align="justify">The initial work on the WLAN Scanner started in the year 2017. Due to problems with the WLAN Environment at home at and work I needed a simple to use tool to evaluate the routers and other stuff in use.</p>
 
-<p align="justify">My programmed scripts have worked without restriction from 2017 to 2024. Therefore, there was no need for me to make any changes.</p>
+<p align="justify">My programmed scripts have worked without restriction from the year 2017 to the year 2024. Therefore, there was no need for me to make any changes.</p>
 
 ## Development
 
