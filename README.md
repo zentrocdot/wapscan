@@ -57,12 +57,11 @@ This repository will have three parts:
 
 ## Look and Feel
 
-<p align="justify">You can run 4 versions:</p>
+<p align="justify">You can run 3 versions:</p>
 
-1. wapscan_simple (not preferred)
-2. wapscan        (for regular usage)
-3. wapscan_beacon (for user who needs two konow how often beacons can be seen)
-4. wapscan_oui    (for user who needs to know which hardware the AP is using)
+1. wapscan        (for regular usage)
+2. wapscan_beacon (for user who needs two konow how often beacons can be seen)
+3. wapscan_oui    (for user who needs to know which hardware the AP is using)
 
 First, you choose the WLAN device for scanning:
 
