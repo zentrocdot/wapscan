@@ -88,11 +88,13 @@ The first data is collected and than the WLAN environment is scanned continously
 
 <p align="justify">The easiest way for the future is to use PPA from Launchpad.</p>
 
+<pre>
     sudo add-apt-repository ppa:zentrocdot/wapscan-cli
     
     sudo apt update
 
     sudo apt-get install wapscan
+</pre>
 
 # Installation Note
 
