@@ -8,6 +8,18 @@
 
 <p align="justify"></p>
 
+## Development
+
+<p align="justify"></p>
+
+<p align="justify"></p>
+
+<p align="justify"></p>
+
+## References
+
+<p align="justify"></p>
+
 <p align="justify"></p>
 
 <p align="justify"></p>
