@@ -10,7 +10,7 @@
 
 ## Development
 
-<p align="justify"></p>
+<p align="justify">I wrote a WLAN Scanner in Bash and in Python. wapscan is simple and pure Bash code using only by standard available tools.</p>
 
 <p align="justify"></p>
 
