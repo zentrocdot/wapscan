@@ -47,7 +47,7 @@ __      __ __ _  _ __   ___   ___   __ _  _ __
 <p align="justify">The wireless access point scanner will run on Linux Mint and should be also run on Linux Ubunto and also on Debian like operating systems. I developed 
  the scanner on Linux Mint for usage on Linux Mint.</p>
 
-# Introductory Words
+## Introductory Words
 
 <p align="justify">Before I started the development I was looking for a good name. After finding a name I checked if there will be a package with the same name [1]. No match said to me that this will be a good name.</p>
 
@@ -79,7 +79,7 @@ The first data is collected and than the WLAN environment is scanned continously
 <img src="\IMAGES\scan.png" alt="Alt text" title="Optional title">
 </center>
 
-# Program Technical Background
+## Program Technical Background
 
 <p align="justify">To avoid reinventing the wheel, I always look for the simplest solutions. I found the tools available at command level suitable for a WLAN scanner.</p>
 
@@ -87,7 +87,7 @@ The first data is collected and than the WLAN environment is scanned continously
 
 <p align="justify">I use the tools iw and iwlist. For hardware identification iw is well suited and for WLAN scanning iwlist.</p>
 
-# Installation
+## Installation
 
 <p align="justify">The easiest way for the future is to use PPA from Launchpad.</p>
 
@@ -99,41 +99,41 @@ sudo apt update
 sudo apt-get install wapscan
 </pre>
 
-# Installation Note
+## Installation Note
 
 <p align="justify">To use the created DEB package one needs at least Debian 12, Ubuntu Jammy, Mint Vanessa or Rapsian Bookworm. The problem is the internal usage of the zst compression, which was introduced with Debian 12.</p>
 
-# Testing
+## Testing
 
 <p align="justify">The scripts have been tested on different Debian derivatives and versions and have been executable. The current restrictions apply to the installation of the DEB package.</p>
 
-# To-Do
+## To-Do
 
 <p align="justify">A review of the code is necessary. Since the program is now accessible to the general public, a few additional modifications are necessary.</p>
 
-# Outlook
+## Outlook
 
 <p align="justify">As soon as I'm done here in the repository, I'll see if a PPA is suitable for my first application.</p>
 
-# Planned Further Developments
+## Planned Further Developments
 
 <p align="justify">At the moment 2.4 GHz as well as 5 GHz wlan access points are recognised. It shuod be possible to decide which one should be monitored.</p>
 
-# Challenges while Development
+## Challenges while Development
 
 <p align="justify">After writing the first version and the predecessor of the current WLAN scanner, I faced two problems when working on different hardware platforms and operating systems.</p>
 
 <p align="justify">First the output structure of iwlist was different on different operating systems. Second the naming of the wlan devices was different on different operating systems.</p>
 
-# Known Restrictions
+## Known Restrictions
 
 <p align="justify">One of the most important restrictions is the fact that sudo rights are required for execution. This is due to the use of iwlist in the background. iwlist only works as root.</p>
 
-# Limitations
+## Limitations
 
 <p align="justify">wapscan can only be executed once when using the same hardware. Otherwise there will be conflicts in the form of data being displayed alternately.</p>
 
-# Typical Response from IWLIST
+## Typical Response from IWLIST
 
     wly97dfd02de607  Scan completed :
               Cell 01 - Address: 85:BE:26:40:71:25
@@ -164,7 +164,7 @@ sudo apt-get install wapscan
                         IE: Unknown: DD1B00905C3406000000000000000000000000000000000000000000
                         IE: Unknown: DD0700E05C0202E0
 
-# Typical Response from IW
+## Typical Response from IW
 
     phy#0
 	       Interface wlq6s1
@@ -173,8 +173,6 @@ sudo apt-get install wapscan
 		      addr 29:fe:53:01:db:46
 		      type managed
 		      txpower 17.00 dBm
-
-
 
 # References
 
