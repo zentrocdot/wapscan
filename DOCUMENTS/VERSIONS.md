@@ -19,10 +19,10 @@
 | 8 Jessie             | 15.04 Vivid Vervet      |                     |                      | 
 | 8 Jessie             | 15.10 Wily Werewolf     |                     |                      | 
 |                      |                         |                     |                      |
-| 9  Stretch           | 16.04 Xenial Xerus      |                     |                      | 
-| 9  Stretch           | 16.10 Yakkety Yak       |                     |                      | 
-| 9  Stretch           | 17.04 Zesty Zapus       |                     |                      | 
-| 9  Stretch           | 17.10 Artful Aardvark   |                     |                      | 
+| 9 Stretch            | 16.04 Xenial Xerus      |                     |                      | 
+| 9 Stretch            | 16.10 Yakkety Yak       |                     |                      | 
+| 9 Stretch            | 17.04 Zesty Zapus       |                     |                      | 
+| 9 Stretch            | 17.10 Artful Aardvark   |                     |                      | 
 |                      |                         |                     |                      |
 | 10 Buster            | 18.04 Bionic Beaver     |                     |                      |
 | 10 Buster            | 18.10 Cosmic Cuttlefish |                     |                      |
@@ -30,14 +30,20 @@
 | 10 Buster            | 19.10 Eoan Ermine       |                     |                      |
 |                      |                         |                     |                      |
 | 11 Bullseye          | 20.10 Groovy Gorilla    |                     |                      |  
-| 11 Bullseye          | 20.04 Focal Fossa       |                     |                      |
+| 11 Bullseye          | 20.04 Focal Fossa       | 20	Ulyana           |                      |
+|                      |                         | 20.1	Ulyssa         |                      |
+|                      |                         | 20.2	Uma            |                      |
+|                      |                         | 20.3	Una            |                      |
+|                      |                         |                     |                      |
 | 11 Bullseye          | 21.04 Hirsute Hippo     |                     |                      |
 | 11 Bullseye          | 21.10 Impish Indri      |                     |                      |
 |                      |                         |                     |                      |
-| 12 Bookworm          | 22.04 Jammy Jellyfish   | Vanessa             |                      |
-| 12 Bookworm          | 22.04 Jammy Jellyfish   | Vera                |                      |
-| 12 Bookworm          | 22.04 Jammy Jellyfish   | Victoria            |                      |
-| 12 Bookworm          | 22.04 Jammy Jellyfish   | Virginia            |                      |
+| 12 Bookworm          |                         | 6 Faye              |                      |
+|                      |                         |                     |                      |
+| 12 Bookworm          | 22.04 Jammy Jellyfish   | 21 Vanessa          |                      |
+| 12 Bookworm          | 22.04 Jammy Jellyfish   | 21.1 Vera           |                      |
+| 12 Bookworm          | 22.04 Jammy Jellyfish   | 21.2 Victoria       |                      |
+| 12 Bookworm          | 22.04 Jammy Jellyfish   | 21.3 Virginia       |                      |
 |                      |                         |                     |                      |
 | 13 Trixie	           | 22.10 Kinetic Kudu      |                     |                      |
 |                      |                         |                     |                      |
