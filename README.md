@@ -32,7 +32,7 @@ __      __ __ _  _ __   ___   ___   __ _  _ __
 
 ## Short Description
 
-<p align="justify">The wireless access point scanner is listing 2.4 GHz as well as 5 GHz access points. Four versions of the wireless access point scanner can be used. But only three of them are of interest:</p>
+<p align="justify">The wireless access point scanner is listing 2.4 GHz as well as 5 GHz access points. Three versions of the wireless access point scanner can be used. But only three of them are of interest:</p>
 
 1. wapscan
 2. wapscan_beacon
@@ -40,7 +40,7 @@ __      __ __ _  _ __   ___   ___   __ _  _ __
   
 <p align="justify">wapscan is the base apllication. wapscan_beacon and wapscan_oui offer further informations. Sometimes it is of interest how often an access point is sending the beacon. This is monitored by wapscan_beacon. It can also be of interest to know the hardware on which the access point runs. The is realised by wapscan_oui.</p>
 
-<p align="justify">The wireless access point scanner is well tested on für wlan on 2.4 GHz. Wlan on 5 GHz were not of interest up to now. So it has also be tested a little bit more.</p>
+<p align="justify">The wireless access point scanner is well tested on für wlan on 2.4 GHz as well as 5 GHz. Both bands are monitored as expected.</p>
 
 ## Prerequisites
 
