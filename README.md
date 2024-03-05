@@ -121,6 +121,14 @@ sudo apt-get install wapscan
 
 <p align="justify">First the output structure of iwlist was different on different operating systems. Second the naming of the wlan devices was different on different operating systems.</p>
 
+# Known Restrictions
+
+<p align="justify">One of the most important restrictions is the fact that sudo rights are required for execution. This is due to the use of iwlist in the background. iwlist only works as root.</p>
+
+# Limitations
+
+<p align="justify">wapscan can only be executed once when using the same hardware. Otherwise there will be conflicts in the form of data being displayed alternately.</p>
+
 # Typical Response from IWLIST
 
     wly97dfd02de607  Scan completed :
