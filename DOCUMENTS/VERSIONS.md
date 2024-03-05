@@ -66,7 +66,9 @@
 
 [5]    www .debian.org/releases/
 
-[6]    https://en.wikipedia.org/wiki/Raspberry_Pi_OS
+[6]    en.wikipedia.org/wiki/Raspberry_Pi_OS
+
+[7]    www .linuxmint.com/download_all.php
 
 
 
