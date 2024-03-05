@@ -6,7 +6,7 @@
 
 <p align="justify">The initial work on the WLAN Scanner started in the year 2017. Due to problems with the WLAN Environment I needed a simple to use tool to evaluate the router in use.</p>
 
-<p align="justify"></p>
+<p align="justify">My programmed scripts have worked without restriction from 2017 to 2024. Therefore, there was no need for me to make any changes.</p>
 
 ## Development
 
@@ -14,7 +14,7 @@
 
 <p align="justify">The first version, which is only conditionally suitable for productive work, has the version number O.O.O.1.</p>
 
-<p align="justify"></p>
+<p align="justify">Versions 0.0.0.2 to 0.0.0.4 are intermediate versions. The here released version will be version 0.0.0.4. The latest version after that will be version 0.0.0.5. In this version I streamline internal processes to get a better code structure.</p>
 
 ## References
 
