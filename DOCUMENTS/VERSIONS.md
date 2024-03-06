@@ -2,8 +2,18 @@
 
 <p align="justify">When packaging, not the Debian version number or the Ubuntu version number is used, but the code name of the release. To make life easier for you, I have compiled the version histories of the distributions I am currently interested in. Base for the packageing is the LTS release of Ubuntu. I am currently in the development branch Debian Bookworm (12), Jammy Jellyfish LTS (22.04) and Vanessa (21).</p>
 
+14
+
+Forky
+
+13
+
+Trixie
+
 | Debian               | Ubuntu                     | Mint                | Raspbian                    | 
 | :------------------- | :------------------------- | :------------------ | :-------------------------- |
+|  0.91 - 5.0          | 4.10 - 9.10                | 1.0 - 8             | NONE                        |
+|                      |                            |                     |                             |
 | 6 Squeeze            | 10.04 Lucid Lynx LTS       | 9 Isadora           | 6 Squeeze (INITIAL RELEASE) |  
 | 6 Squeeze            | 10.10 Maverick Meerkat     | 10 Julia            |                             |
 | 6 Squeeze            | 11.04 Natty Narwhal        | 11 Katya            |                             |
