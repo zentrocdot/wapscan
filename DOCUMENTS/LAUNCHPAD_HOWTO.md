@@ -178,3 +178,7 @@ File <code>control</code>
 [32]    askubuntu.com/questions/754809/whats-the-meaning-of-uc-us-options-in-debuild-uc-us
 
 [33]    www&#8203;.debian.org/doc/packaging-manuals/copyright-format/1.0/; Machine-readable debian/copyright file
+
+[34]    www&#8203;.debian.org/doc/debian-policy/ch-relationships.html#s-sourcebinarydeps
+
+[35]    www&#8203;.debian.org/doc/packaging-manuals/copyright-format/1.0/
