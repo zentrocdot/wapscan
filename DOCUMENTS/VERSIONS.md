@@ -94,6 +94,10 @@
 <hr width="100%" size="1">
 
 <p align="center">
+I would be grateful if you would support the work here.
+</p>
+
+<p align="center">
 <a href="https://www.buymeacoffee.com/zentrocdot" target="_blank"><img src="..\IMAGES\greeen-button.png" alt="Buy Me A Coffee" height="41" width="174"></a>
 </p>
 
