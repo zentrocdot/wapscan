@@ -182,3 +182,7 @@ File <code>control</code>
 [34]    www&#8203;.debian.org/doc/debian-policy/ch-relationships.html#s-sourcebinarydeps
 
 [35]    www&#8203;.debian.org/doc/packaging-manuals/copyright-format/1.0/
+
+[36]    www&#8203;.baeldung.com/linux/create-debian-package
+
+[37]    stackoverflow.com/questions/21019144/how-to-create-manual-entry-for-deb-package
