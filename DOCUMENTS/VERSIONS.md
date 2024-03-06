@@ -69,6 +69,8 @@
 | 2025 (?) | 13 Trixie	          |                            |                     | 13 Trixie (?)               |
 | 2027 (?) | 14 Forky	            |                            |                     | 13 Trixie (?)               |
 
+<p align="justify">Without claiming to be correct and complete, I have counted over 105 distros based on Debian so far [see e.g. 5].</p>
+
 # References
 
 [1]    elinux.org/images/2/2d/Debian-Ubuntu-Releases-20210527-JTJ77-2.pdf
@@ -79,13 +81,15 @@
 
 [4]    en.wikipedia.org/wiki/Linux_Mint
 
-[5]    wiki.debian.org/DebianReleases
+[5]  en.wikipedia.org/wiki/List_of_Linux_distributions
 
-[4]    wiki.ubuntu.com/Releases
+[6]    wiki.debian.org/DebianReleases
 
-[5]    www&#8203;.linuxmint.com/download_all.php
+[7]    wiki.ubuntu.com/Releases
 
-[6]    www&#8203;.debian.org/releases/
+[8]    www&#8203;.linuxmint.com/download_all.php
+
+[9]    www&#8203;.debian.org/releases/
 
 <hr width="100%" size="1">
 
