@@ -90,7 +90,7 @@
 <hr width="100%" size="1">
 
 <p align="center">
-I would be grateful if you would support the work here.
+It would be grateful if you decide to support the work here.
 </p>
 
 <hr width="100%" size="1">
@@ -98,8 +98,6 @@ I would be grateful if you would support the work here.
 <p align="justify">If you like what I present here, and if it helps you above, donate me a cup of coffee :coffee:. I drink a lot of coffee while programming and writing  :smiley:.</p>
 
 <hr width="100%" size="1">
-
-
 
 <p align="center">
 <a href="https://www.buymeacoffee.com/zentrocdot" target="_blank"><img src="..\IMAGES\greeen-button.png" alt="Buy Me A Coffee" height="41" width="174"></a>
