@@ -1,3 +1,8 @@
+# DEB Creation Howto
+
+> [!NOTE]
+> The presented derivation here is only intended to illustrate how a DEB package can be generated and to understand the general procedure.
+
 # Goal
 
 <p align="justify">The goal is to set up a DEB package for a bunch of given Bash scripts. Afterwards this DEB package should be installable especially on Linux Mint. Then the command are available system wide without further steps.</p>
