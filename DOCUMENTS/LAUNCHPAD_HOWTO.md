@@ -70,6 +70,32 @@ admin, cli-mono, comm, database, debug, devel, doc, editors, education, electron
 
     gpg2 --list-keys --keyid-format LONG
 
+# File Content
+
+File <code>changelog</code>
+
+    wapscan (0.0.0.1-all) jammy; urgency=medium
+
+      * Initial release. 
+
+     -- Dr. Peter Netz <zentrocdot@protonmail.com>  Mon, 04 Mar 2024 09:22:23 +0100
+
+File <code>control</code>
+
+    Source: wapscan
+    Section: utils
+    Priority: optional
+    Maintainer: Dr. Peter Netz <zentrocdot@protonmail.com>
+    Build-Depends: debhelper-compat (= 13)
+    Standards-Version: 4.6.0
+    Rules-Requires-Root: no
+
+    Package: wapscan
+    Architecture: all
+    Depends: ${misc:Depends}, wireless-tools, iw, sed, gawk
+    Description: Wireless Access Point Scanner
+     Scanning for nearby wireless access points
+
 # References
 
 [1]   askubuntu.com/questions/1087569/deploying-own-debian-package-to-launchpad
