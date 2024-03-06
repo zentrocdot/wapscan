@@ -33,7 +33,7 @@
 |          | 9 Stretch            | 17.10 Artful Aardvark      |                     |                             | 
 |          |                      |                            |                     |                             |
 | 2019     | 10 Buster            |                            |                     | 10 Buster                   |
-|          |        |                      |                            |                     |                             |
+|          |                      |                            |                     |                             |
 |          | 10 Buster            | 18.04 Bionic Beaver LTS    | 19 Tara             |                             |
 |          |                      |                            | 19.1 Tessa          |                             |
 |          |                      |                            | 19.2 Tina           |                             |
@@ -59,7 +59,6 @@
 |          | 12 Bookworm          | 22.04 Jammy Jellyfish LTS  | 21.1 Vera           |                             |
 |          | 12 Bookworm          | 22.04 Jammy Jellyfish LTS  | 21.2 Victoria       |                             |
 |          | 12 Bookworm          | 22.04 Jammy Jellyfish LTS  | 21.3 Virginia       |                             |
-|          |                      |                            |                     |                             |
 |          |                      |                            |                     |                             |
 | 2022     | (?)                  | 22.10 Kinetic Kudu         | No Info             |                             |
 | 2022     | (?)    	            | 23.04 Lunar Lobster        | No Info             |                             |
