@@ -8,9 +8,7 @@
 | 6 Squeeze            | 10.10 Maverick Meerkat     | 10 Julia            |                             |
 | 6 Squeeze            | 11.04 Natty Narwhal        | 11 Katya            |                             |
 |                      |                            |                     |                             |
-| 7 Wheezy             |                            |                     | 7 Wheezy                    |
-|                      |                            |                     |                             |
-| 7 Wheezy             | 11.10 Oneiric Ocelot       | 12 Lisa             |                             |
+| 7 Wheezy             | 11.10 Oneiric Ocelot       | 12 Lisa             | 7 Wheezy                    |
 | 7 Wheezy             | 12.04 Precise Pangolin LTS | 13 Maya             |                             | 
 | 7 Wheezy             | 12.10 Quantal Quetzal      | 14 Nadia            |                             | 
 | 7 Wheezy             | 13.04 Raring Ringtail      | 15 Olivia           |                             | 
