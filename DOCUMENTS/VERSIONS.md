@@ -1,5 +1,7 @@
 # Debian, Ubuntu and Mint Versions
 
+<p align="justify">When packaging, not the Debian version number or the Ubuntu version number is used, but the code name of the release. To make life easier for you, I have compiled the version histories of the distributions I am currently interested in. Base for the packageing is the LTS release of Ubuntu.</p>
+
 | Debian               | Ubuntu                     | Mint                | Raspbian                    | 
 | :------------------- | :------------------------- | :------------------ | :-------------------------- |
 | 6 Squeeze            | 10.04 Lucid Lynx LTS       |                     | 6 Squeeze (INITIAL RELEASE) |  
