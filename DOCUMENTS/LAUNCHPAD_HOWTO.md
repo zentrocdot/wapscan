@@ -128,7 +128,6 @@ File <code>control</code>
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE.
-     
 
 # References
 
@@ -177,3 +176,5 @@ File <code>control</code>
 [31]    askubuntu.com/questions/579323/dch-non-interactive-mode
 
 [32]    askubuntu.com/questions/754809/whats-the-meaning-of-uc-us-options-in-debuild-uc-us
+
+[33]    www&#8203;.debian.org/doc/packaging-manuals/copyright-format/1.0/; Machine-readable debian/copyright file
