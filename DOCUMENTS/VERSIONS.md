@@ -1,4 +1,4 @@
-# Selection of Debian, Ubuntu and Mint Versions
+# Selection of Linux Debian, Linux Ubuntu and Linux Mint Versions
 
 <p align="justify">When packaging, not the Debian version number or the Ubuntu version number is used, but the code name of the release. To make life easier for you, I have compiled the version histories of the distributions I am currently interested in. Base for the packageing is the LTS release of Ubuntu. I am currently in the development branch Debian Bookworm (12), Jammy Jellyfish LTS (22.04) and Vanessa (21).</p>
 
