@@ -186,3 +186,9 @@ File <code>control</code>
 [36]    www&#8203;.baeldung.com/linux/create-debian-package
 
 [37]    stackoverflow.com/questions/21019144/how-to-create-manual-entry-for-deb-package
+
+[38]    wiki.debian.org/Packaging
+
+[39]    wiki.debian.org/HowToPackageForDebian
+
+[40]    wiki.debian.org/Packaging/Intro
