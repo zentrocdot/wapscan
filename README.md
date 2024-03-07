@@ -100,11 +100,13 @@ sudo apt update
 sudo apt-get install wapscan
 </pre>
 
-<p align="justify">wapscan will build for use with Ubuntu noble, mantic, jammy, focal, bionic, xenial and trusty.</p>
+<p align="justify">wapscan will be build for use with Ubuntu Noble, Mantic, Jammy, Focal, Bionic, Xenial and Trusty.</p>
+
+<p align="justify">At the moment I am building wapscan for Ubuntu Noble. After that is done I prepare the DEB packages inside of Launchpad for use with the other versions of Ubuntu. Then I am testing the installed program with Linux Mint (Ubuntu Jammy). This is at least Debian 12, Ubuntu Jammy, Mint Vanessa or Rapsian Bookworm.</p>
 
 ## Installation Note
 
-<p align="justify">To use the created DEB package one needs at least Debian 12, Ubuntu Jammy, Mint Vanessa or Rapsian Bookworm. The problem is the internal usage of the zst compression, which was introduced with Debian 12.</p>
+<p align="justify">Open issue is, that I not know if the zst compression, which was introduced with Debian 12, is at all a problem for elder versions.</p>
 
 ## Testing
 
