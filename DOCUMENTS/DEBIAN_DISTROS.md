@@ -1,22 +1,29 @@
 # Debian Distros
 
-<p align="justify">Without claiming to be correct and complete, I have counted over 105 distros based on Debian so far [5]. Examples are:</p>
+<p align="justify">Without claiming to be correct and complete, I have counted over 105 distros based on Debian so far [3]. Examples are:</p>
 
 * AntiX
+* Aptosid
 * Armbian
-* AV Linux
+* AV-Linux
+* Bananian
 * BOSS Linux
 * BunsenLabs Linux
+* Cubian
+* DebianEdu
 * Deepin
 * Devuan
 * DietPi
 * Dog Linux
 * Endless OS
 * Feren OS
+* JeOS
 * Kaisen Linux
 * Kali Linux
 * Knoppix
 * Linux Kodachi
+* Linux Mint
+* Linux Mint LMDE
 * MakuluLinux
 * MX Linux
 * Neptune
@@ -25,37 +32,36 @@
 * pardus
 * Parrot OS
 * Peppermint OS
+* Pop!_OS
 * PsychOS
 * PureOS
+* Qimo
+* Q4OS
+* Raspbian
 * RetroPie
 * Siduction
 * Slax
 * SolydXK
 * SparkyLinux
+* Steamos
+* Symphony OS
+* Ubuntu
+* VoiceBuntu
 * Voyager
 * Whonix
+* Xubuntu
 * YunoHost
+* Zentyal
 * Zorin OS
+* ...
 
 # References
 
-[1]    elinux.org/images/2/2d/Debian-Ubuntu-Releases-20210527-JTJ77-2.pdf
+[1]    de.wikipedia.org/wiki/Kategorie:Debian-basierte_Linux-Distribution
 
-[2]    en.wikipedia.org/wiki/Raspberry_Pi_OS
+[2]    de.wikipedia.org/wiki/Liste_von_Linux-Distributionen
 
-[3]    en.wikipedia.org/wiki/Ubuntu_version_history
-
-[4]    en.wikipedia.org/wiki/Linux_Mint
-
-[5]    en.wikipedia.org/wiki/List_of_Linux_distributions
-
-[6]    wiki.debian.org/DebianReleases
-
-[7]    wiki.ubuntu.com/Releases
-
-[8]    www&#8203;.debian.org/releases/
-
-[9]    www&#8203;.linuxmint.com/download_all.php
+[3]    en.wikipedia.org/wiki/List_of_Linux_distributions
 
 <hr width="100%" size="1">
 
