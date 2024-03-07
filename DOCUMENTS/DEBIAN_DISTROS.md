@@ -16,6 +16,8 @@
 * BOSS Linux
 * BunsenLabs Linux
 * CAINE
+* Caixa Mágica
+* Comfusion
 * Commodore OS Vision
 * Canaima
 * Corel Linux
@@ -30,7 +32,9 @@
 * DoudouLinux
 * DuZeru
 * elementary OS
+* Emmabuntüs
 * Endless OS
+* Estobuntu
 * Feren OS
 * Finnix
 * FreedomBox
@@ -45,6 +49,8 @@
 * Kaisen Linux
 * Kali Linux
 * Kanotix
+* Karoshi
+* Kiwi
 * Kubuntu
 * KDE neon 
 * Knoppix
@@ -57,12 +63,15 @@
 * Linux Mint
 * Linux Mint Debian Edition (LMDE)
 * Lubuntu
+* LuninuX OS
+* LXLE
 * Maemo
 * MakuluLinux
 * MX Linux
 * Mythbuntu
 * Neptune
 * Netrunner
+* Nova
 * Nitrux
 * Omoikane GNU/Linux
 * OpenELEC
@@ -70,6 +79,7 @@
 * openmamba
 * OpenWrt
 * OpenZaurus
+* OS4
 * Paldo
 * Pardus
 * Parrot OS
@@ -79,6 +89,7 @@
 * Poseidon
 * PsychOS
 * Puppy Linux
+* Puredyne
 * PureOS
 * Qimo
 * Q4OS
@@ -88,6 +99,7 @@
 * RetroPie
 * Rhino Linux
 * Runtu
+* Sabily
 * Siduction
 * SimplyMEPIS
 * Skudonet 
@@ -95,6 +107,7 @@
 * SolydXK
 * SparkyLinux
 * SpiralLinux
+* StartOS
 * Steamos
 * Super OS
 * Symphony OS
@@ -119,8 +132,9 @@
 * Xubuntu
 * YunoHost
 * Zentyal
+* ZevenOS
 * Zorin OS
-* ...
+* and further more ...
 
 # References
 
