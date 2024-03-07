@@ -67,12 +67,14 @@
 * LXLE
 * Maemo
 * MakuluLinux
+* Morphix
 * MX Linux
 * Mythbuntu
 * Neptune
 * Netrunner
-* Nova
 * Nitrux
+* Nova
+* NUbuntu
 * Omoikane GNU/Linux
 * OpenELEC
 * OpenGEU
