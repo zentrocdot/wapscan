@@ -128,6 +128,8 @@ sudo apt-get install wapscan
 
 <p align="justify">At the moment 2.4 GHz as well as 5 GHz wlan access points are recognised. It shuod be possible to decide which one should be monitored.</p>
 
+<p align="justify">Check how I can easily identify the used WLAN 802.11 b/g/n standard of the AP.</p>
+
 ## Challenges while Development
 
 <p align="justify">After writing the first version and the predecessor of the current WLAN scanner, I faced two problems when working on different hardware platforms and operating systems.</p>
@@ -179,7 +181,7 @@ sudo apt-get install wapscan
 	       Interface wlq6s1
 		      ifindex 2
 		      wdev 0x1
-		      addr 29:fe:53:01:db:46
+		      addr 19:fb:53:01:fb:56
 		      type managed
 		      txpower 17.00 dBm
 
