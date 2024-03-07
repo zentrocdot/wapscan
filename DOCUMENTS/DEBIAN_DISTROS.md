@@ -27,6 +27,8 @@
 * Devuan
 * DietPi
 * Dog Linux
+* DoudouLinux
+* DuZeru
 * elementary OS
 * Endless OS
 * Feren OS
@@ -39,13 +41,17 @@
 * HandyLinux
 * Huayra GNU/Linux
 * JeOS
+* Joli OS
 * Kaisen Linux
 * Kali Linux
+* Kanotix
 * Kubuntu
 * KDE neon 
 * Knoppix
 * Legacy OS
+* LinEx
 * Linspire
+* LinuxAdvanced
 * Linux Kodachi
 * Linux Lite 
 * Linux Mint
@@ -54,6 +60,7 @@
 * Maemo
 * MakuluLinux
 * MX Linux
+* Mythbuntu
 * Neptune
 * Netrunner
 * Nitrux
@@ -82,6 +89,7 @@
 * Rhino Linux
 * Runtu
 * Siduction
+* SimplyMEPIS
 * Skudonet 
 * Slax
 * SolydXK
