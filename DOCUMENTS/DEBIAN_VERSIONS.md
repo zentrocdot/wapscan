@@ -68,43 +68,6 @@
 | 2025 (?) | 13 Trixie	          |                            |                     | 13 Trixie (?)               |
 | 2027 (?) | 14 Forky	            |                            |                     | 13 Trixie (?)               |
 
-<p align="justify">Without claiming to be correct and complete, I have counted over 105 distros based on Debian so far [5]. Examples are:</p>
-
-* AntiX
-* Armbian
-* AV Linux
-* BOSS Linux
-* BunsenLabs Linux
-* Deepin
-* Devuan
-* DietPi
-* Dog Linux
-* Endless OS
-* Feren OS
-* Kaisen Linux
-* Kali Linux
-* Knoppix
-* Linux Kodachi
-* MakuluLinux
-* MX Linux
-* Neptune
-* Netrunner
-* Nitrux
-* pardus
-* Parrot OS
-* Peppermint OS
-* PsychOS
-* PureOS
-* RetroPie
-* Siduction
-* Slax
-* SolydXK
-* SparkyLinux
-* Voyager
-* Whonix
-* YunoHost
-* Zorin OS
-
 # References
 
 [1]    elinux.org/images/2/2d/Debian-Ubuntu-Releases-20210527-JTJ77-2.pdf
