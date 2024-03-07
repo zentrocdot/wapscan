@@ -114,7 +114,11 @@ sudo apt-get install wapscan
 
 ## To-Do
 
-<p align="justify">A review of the code is necessary. Since the program is now accessible to the general public, a few additional modifications are necessary.</p>
+<p align="justify">A review of the code is necessary. Since the program is now accessible to the general public, a few additional modifications are also necessary.</p>
+
+<p align="justify">And then there are some things on my to-do list for the improvement of the wapscan code. Due to a lack of time the realisation will take a while.</p>
+
+<p align="justify">Since I call sudo from within the program now, it is necessary to check how I can separate the first call of wapscan from the second sudo call of wapscan. This is a similar process to my daemonising process of a daemon script.</p>
 
 ## Outlook
 
