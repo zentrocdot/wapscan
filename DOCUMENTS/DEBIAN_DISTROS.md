@@ -2,9 +2,11 @@
 
 <p align="justify">Without claiming to be correct and complete, I have counted over 130 distros based on Debian so far [3]. Examples are:</p>
 
+* Accessible-Coconut
 * AntiX
 * Aptosid
 * Armbian
+* Astra Linux
 * AV-Linux
 * BackBox Linux 
 * Bananian
@@ -12,7 +14,8 @@
 * BOSS Linux
 * BunsenLabs Linux
 * CAINE
-* Commodore OS Vision 
+* Commodore OS Vision
+* Corel Linux
 * Cubian
 * DebianEdu
 * Deepin
@@ -22,8 +25,11 @@
 * elementary OS
 * Endless OS
 * Feren OS
-* Finnix 
-* Gnoppix Linux 
+* Finnix
+* Google Cloud Shell
+* Gnoppix Linux
+* HandyLinux
+* Huayra GNU/Linux
 * JeOS
 * Kaisen Linux
 * Kali Linux
@@ -31,6 +37,7 @@
 * KDE neon 
 * Knoppix
 * Legacy OS
+* Linspire
 * Linux Kodachi
 * Linux Lite 
 * Linux Mint
