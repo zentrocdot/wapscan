@@ -6,24 +6,37 @@
 * Aptosid
 * Armbian
 * AV-Linux
+* BackBox Linux 
 * Bananian
+* Bodhi Linux
 * BOSS Linux
 * BunsenLabs Linux
+* CAINE
+* Commodore OS Vision 
 * Cubian
 * DebianEdu
 * Deepin
 * Devuan
 * DietPi
 * Dog Linux
+* elementary OS
 * Endless OS
 * Feren OS
+* Finnix 
+* Gnoppix Linux 
 * JeOS
 * Kaisen Linux
 * Kali Linux
+* Kubuntu
+* KDE neon 
 * Knoppix
+* Legacy OS
 * Linux Kodachi
+* Linux Lite 
 * Linux Mint
 * Linux Mint LMDE
+* Lubuntu
+* Maemo
 * MakuluLinux
 * MX Linux
 * Neptune
@@ -34,21 +47,41 @@
 * Peppermint OS
 * Pop!_OS
 * PsychOS
+* Puppy Linux
 * PureOS
 * Qimo
+* OpenZaurus
 * Q4OS
 * Raspbian
+* Relianoid
+* Rescatux
 * RetroPie
+* Rhino Linux
+* Runtu
 * Siduction
+* Skudonet 
 * Slax
 * SolydXK
 * SparkyLinux
+* SpiralLinux
 * Steamos
+* Super OS
 * Symphony OS
+* Tails
+* TUXEDO OS 
 * Ubuntu
+* Uruk GNU/Linux
+* Vanilla OS
 * VoiceBuntu
+* Volumio 
 * Voyager
+* Vyatta
+* VyOS
+* wattOS
+* Webconverger
 * Whonix
+* Wienux
+* Xandros Linux
 * Xubuntu
 * YunoHost
 * Zentyal
@@ -60,6 +93,8 @@
 [1]    de.wikipedia.org/wiki/Kategorie:Debian-basierte_Linux-Distribution
 
 [2]    de.wikipedia.org/wiki/Liste_von_Linux-Distributionen
+
+[3]    distrowatch.com/
 
 [3]    en.wikipedia.org/wiki/List_of_Linux_distributions
 
