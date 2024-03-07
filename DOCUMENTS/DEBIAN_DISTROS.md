@@ -1,6 +1,6 @@
 # Debian Distros
 
-<p align="justify">Without claiming to be correct and complete, I have counted over 130 distros based on Debian so far [3]. Examples are:</p>
+<p align="justify">Without claiming to be correct and complete, I have counted over 130 distros based on Debian so far [1,2,4,5]. Examples are:</p>
 
 * Accessible-Coconut
 * AntiX
@@ -146,7 +146,9 @@
 
 [3]    distrowatch.com/
 
-[3]    en.wikipedia.org/wiki/List_of_Linux_distributions
+[4]    en.wikipedia.org/wiki/Category:Debian-based_distributions
+
+[5]    en.wikipedia.org/wiki/List_of_Linux_distributions
 
 <hr width="100%" size="1">
 
@@ -191,4 +193,4 @@ It would be grateful if you decide to support the work here.
 
 <hr width="100%" size="1">
 
-<p align="center">Page last modified 06/03/2024</p>
+<p align="center">Page last modified 07/03/2024</p>
