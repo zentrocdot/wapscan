@@ -201,3 +201,7 @@ The file wapscan.install looks like
 [39]    wiki.debian.org/HowToPackageForDebian
 
 [40]    wiki.debian.org/Packaging/Intro
+
+[41]    wiki.ubuntuusers.de/Grundlagen_der_Paketerstellung/
+
+[42]   www&#8203;.debian.org/doc/manuals/debmake-doc/ch04.en.html
