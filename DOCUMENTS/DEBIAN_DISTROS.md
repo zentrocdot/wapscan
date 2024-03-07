@@ -5,11 +5,13 @@
 * Accessible-Coconut
 * AntiX
 * Aptosid
+* ARMA 
 * Armbian
 * Astra Linux
 * AV-Linux
 * BackBox Linux 
 * Bananian
+* Behördendesktop
 * Bodhi Linux
 * BOSS Linux
 * BunsenLabs Linux
@@ -17,8 +19,10 @@
 * Commodore OS Vision
 * Canaima
 * Corel Linux
+* CrunchBang Linux
 * Cubian
 * DebianEdu
+* Debian-Med
 * Deepin
 * Devuan
 * DietPi
@@ -27,6 +31,7 @@
 * Endless OS
 * Feren OS
 * Finnix
+* FreedomBox
 * Gobuntu
 * Goobuntu
 * Google Cloud Shell
@@ -52,9 +57,12 @@
 * Neptune
 * Netrunner
 * Nitrux
-* pardus
+* Omoikane GNU/Linux
+* Paldo
+* Pardus
 * Parrot OS
 * Peppermint OS
+* Plop
 * Pop!_OS
 * Poseidon
 * PsychOS
