@@ -100,34 +100,43 @@ File <code>control</code>
 
     Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
     Upstream-Name: wapscan
-    Upstream-Contact: Dr. Peter Netz, <zentrocdot@protonmail.com>
+    Upstream-Contact: Dr. Peter Netz, <zentrocdot@neutronmail.org>
     Source: https://github.com/zentrocdot/wapscan_package
 
-    Files: *
-    Copyright: 2017-2024, Dr. Peter Netz, <zentrocdot@protonmail.com>
+    Files: debian/*
+    Copyright: 2017-2024, Dr. Peter Netz, <zentrocdot@neutronmailmail.org>
     License: MIT
 
-    MIT License
+    Copyright: 2024 Dr. Peter Netz <hades@unknown>
+    License: GPL-2+
+    This package is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+ 
+    This package is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+ 
+    You should have received a copy of the GNU General Public License
+    along with this program. If not, see <https://www.gnu.org/licenses/>
 
-    Copyright (c) 2016-2024 Dr. Peter Netz
+    On Debian systems, the complete text of the GNU General
+    Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
 
-    Permission is hereby granted, free of charge, to any person obtaining a copy
-    of this software and associated documentation files (the "Software"), to deal
-    in the Software without restriction, including without limitation the rights
-    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-    copies of the Software, and to permit persons to whom the Software is
-    furnished to do so, subject to the following conditions:
+In file format this has to be changed:
 
-    The above copyright notice and this permission notice shall be included in all
-    copies or substantial portions of the Software.
+    3.0 (quilt)
 
-    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-    SOFTWARE.
+to
+
+   3.0 (native)
+
+The file wapscan.install looks like
+
+    ./usr/share/wapscan/oui/* /usr/share/wapscan
+    ./usr/bin/* /usr/bin
 
 # References
 
