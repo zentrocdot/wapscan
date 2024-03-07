@@ -225,6 +225,8 @@ sudo apt-get install wapscan
 
 [12]    wiki.ubuntuusers.de/LinSSID/
 
+[13]    standards-oui.ieee.org/
+
 <hr width="100%" size="2">
 
 <p align="center">I loved the time when you could get also a hamburger :hamburger: for one euro!</p>
