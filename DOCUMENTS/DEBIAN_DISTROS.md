@@ -1,6 +1,6 @@
 # Debian Distros
 
-<p align="justify">Without claiming to be correct and complete, I have counted over 105 distros based on Debian so far [3]. Examples are:</p>
+<p align="justify">Without claiming to be correct and complete, I have counted over 130 distros based on Debian so far [3]. Examples are:</p>
 
 * AntiX
 * Aptosid
