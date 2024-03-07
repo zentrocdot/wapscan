@@ -1,6 +1,6 @@
 # Debian Distros
 
-<p align="justify">Without claiming to be correct and complete, I have counted over 130 distros based on Debian so far [1,2,4,5]. Examples are:</p>
+<p align="justify">Without claiming to be correct and complete, I have counted over 140 distros based on Debian so far [1,2,4,5]. Examples are:</p>
 
 * Accessible-Coconut
 * AntiX
@@ -31,6 +31,7 @@
 * Dog Linux
 * DoudouLinux
 * DuZeru
+* eLearnix 
 * elementary OS
 * Emmabuntüs
 * Endless OS
@@ -42,6 +43,7 @@
 * Goobuntu
 * Google Cloud Shell
 * Gnoppix Linux
+* HamoniKR 
 * HandyLinux
 * Huayra GNU/Linux
 * JeOS
@@ -82,6 +84,7 @@
 * OpenWrt
 * OpenZaurus
 * OS4
+* PakOS
 * Paldo
 * Pardus
 * Parrot OS
@@ -96,12 +99,15 @@
 * Qimo
 * Q4OS
 * Raspbian
+* RebeccaBlackOS
+* Redo Rescue
 * Relianoid
 * Rescatux
 * RetroPie
 * Rhino Linux
 * Runtu
 * Sabily
+* SELKS
 * Siduction
 * SimplyMEPIS
 * Skudonet 
