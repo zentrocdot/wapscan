@@ -179,6 +179,18 @@ sudo apt-get install wapscan
 		      type managed
 		      txpower 17.00 dBm
 
+ ## Compatibility to given oui.txt files
+
+ <p align="justify">To be compatible to a given oui.txt file I worked out the following structure for one entry.</p>
+                  
+    00-18-42 (hex) Nokia Danmark A/S 
+            ^     ^
+	    |     | 
+            |     \ - one or more whitespaces [space and/or tab]
+            \ - one or more whitespaces [space and/or tab]
+   
+ <p align="justify">in the near future a user can use a self created oui.txt file for testing or other purpose.</p>
+
 # References
 
 [0]    www&#8203;.debian.org/doc/manuals/maint-guide/dreq.en.html
