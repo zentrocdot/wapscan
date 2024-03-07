@@ -15,6 +15,7 @@
 * BunsenLabs Linux
 * CAINE
 * Commodore OS Vision
+* Canaima
 * Corel Linux
 * Cubian
 * DebianEdu
@@ -26,6 +27,8 @@
 * Endless OS
 * Feren OS
 * Finnix
+* Gobuntu
+* Goobuntu
 * Google Cloud Shell
 * Gnoppix Linux
 * HandyLinux
@@ -41,7 +44,7 @@
 * Linux Kodachi
 * Linux Lite 
 * Linux Mint
-* Linux Mint LMDE
+* Linux Mint Debian Edition (LMDE)
 * Lubuntu
 * Maemo
 * MakuluLinux
@@ -53,10 +56,12 @@
 * Parrot OS
 * Peppermint OS
 * Pop!_OS
+* Poseidon
 * PsychOS
 * Puppy Linux
 * PureOS
 * Qimo
+* OpenGEU
 * OpenZaurus
 * Q4OS
 * Raspbian
@@ -89,6 +94,7 @@
 * Whonix
 * Wienux
 * Xandros Linux
+* Xebian
 * Xubuntu
 * YunoHost
 * Zentyal
