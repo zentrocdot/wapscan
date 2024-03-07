@@ -205,7 +205,7 @@ sudo apt-get install wapscan
 
 [11]    wifi-radar.tuxfamily.org/pub/
 
-[12]    https://wiki.ubuntuusers.de/LinSSID/
+[12]    wiki.ubuntuusers.de/LinSSID/
 
 <hr width="100%" size="2">
 
