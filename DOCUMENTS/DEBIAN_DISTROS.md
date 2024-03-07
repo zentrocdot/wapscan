@@ -58,6 +58,11 @@
 * Netrunner
 * Nitrux
 * Omoikane GNU/Linux
+* OpenELEC
+* OpenGEU
+* openmamba
+* OpenWrt
+* OpenZaurus
 * Paldo
 * Pardus
 * Parrot OS
@@ -69,8 +74,6 @@
 * Puppy Linux
 * PureOS
 * Qimo
-* OpenGEU
-* OpenZaurus
 * Q4OS
 * Raspbian
 * Relianoid
@@ -88,6 +91,8 @@
 * Super OS
 * Symphony OS
 * Tails
+* Trisquel
+* TurnKey Linux
 * TUXEDO OS 
 * Ubuntu
 * Uruk GNU/Linux
