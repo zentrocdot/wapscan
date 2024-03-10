@@ -14,7 +14,7 @@
 
 <p align="justify">The first version, which is only conditionally suitable for productive work, has the version number O.O.O.1. This is more a version of historic interest.</p>
 
-<p align="justify">Versions 0.0.0.2 to 0.0.0.4 are intermediate versions. The second to last released version here will be version 0.0.0.4. The latest version after that will be version 0.0.0.5. In this version I streamline internal processes to get a better code structure.</p>
+<p align="justify">Package version and script version may differ. Changes to the package do not necessarily lead to changes in the script version number.</p> 
 
 ## References
 
