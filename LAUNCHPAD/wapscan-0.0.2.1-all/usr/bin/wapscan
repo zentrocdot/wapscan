@@ -1,0 +1,496 @@
+#!/usr/bin/bash
+# shellcheck disable=SC2076
+# shellcheck disable=SC2143
+# shellcheck disable=SC2155
+# shellcheck disable=SC2183
+# shellcheck disable=SC2236
+# shellcheck disable=SC2250
+# shellcheck disable=SC2312
+
+# ##############################################################################
+# wapscan
+# Copyright © 2017-2024, Dr. Peter Netz
+# Version 0.0.1.1
+#
+# Alternatives for scanning:
+# (1) nmcli dev wifi list
+# (2) iw dev wlan0 scan
+#
+# Exit Codes:
+# -----------
+# 1   : General error
+# 2   : Misuse of builtins
+# 8   : User has not sudo permissions
+# 32  : Interface error
+# 64  : Interface is not in managed mode
+# 126 : Command cannot executed
+# 127 : Command cannot found
+# 128 : Invalid argument to exit
+# 130 : Script terminated by Control-C
+#
+# References:
+# -----------
+# de.wikipedia.org/wiki/MAC-Adresse
+# www.tldp.org/LDP/abs/html/exitcodes.html
+# misc.flogisoft.com/bash/tip_colors_and_formatting
+# stackoverflow.com/questions/18215973/how-to-check-if-running-as-root-in-a-bash-script
+# manpages.ubuntu.com/manpages/noble/de/man1/getopt.1.html
+# www.man7.org/linux/man-pages/man1/getopt.1.html
+# www.linuxcampus.net/documentation/man-html/htmlman1/getopt.1.html
+# ##############################################################################
+
+# Set some script variables.
+_VERSION="0.0.1.1"
+_COPYRIGHT="Copyright © 2017-2024, Dr. Peter Netz"
+
+# Check if the script is running as root.
+# iwlist requires root rights!
+if ((EUID != 0)); then
+    # Print a message in the terminal window.
+    echo "Granting required root privileges for executing the program $(basename $0)"
+    # Run the script as sudo.
+    sudo "$0" "$@"
+    # Exit the script.
+    exit 8
+fi
+
+# Print a message in the terminal window.
+echo "Root privileges granted..."
+
+# Initialise the limit variable.
+LIMIT=""
+
+# Initialise the interface variable.
+IFACE=""
+
+# Set the array.
+BSSIDLIST=()
+
+# Get the command line arguments.
+OPT=$1
+VAR=$2
+
+# Set the lower and the upper bound.
+UB=0
+LB=-256
+
+# Check the command line arguments.
+if [[ "${OPT}" == "-l" ]] && [[ "${VAR}" != "" ]]; then
+    # Check if the limit variable is valid.
+    if [[ -z "${VAR//[0-9\-]/}" ]]; then
+        # Check the value of the limit with respect to lower and upper bound.
+        if [[ "${VAR}" -le "${UB}" ]] && [[ "${VAR}" -gt "${LB}" ]]; then
+            # Set the value of the limit variable.
+            LIMIT="${VAR}"
+        fi
+    fi
+fi
+
+# Set variable PRINTOUT.
+PRINTOUT=false
+
+# Set some other variables.
+TIME_SCAN=1.0
+TIME_WAIT=1.5
+
+# ==============================================================================
+# Function header
+# ==============================================================================
+header () {
+# Set the color to blue.
+echo -ne "\e[44m"
+# Read the heredoc.
+read -r -d '' VAR << "HEREDOC"
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃   __      __ __ _  _ __   ___   ___   __ _  _ __     ┃
+┃   \ \ /\ / // _` || '_ \ / __| / __| / _` || '_ \    ┃
+┃    \ V  V /| (_| || |_) |\__ \| (__ | (_| || | | |   ┃
+┃     \_/\_/  \__,_|| .__/ |___/ \___| \__,_||_| |_|   ┃
+┃                   |_|                                ┃
+┃                                                      ┃
+┃                wapscan version VERSION               ┃
+┃         COPYRIGHT        ┃
+┃      iwlist based wireless access point scanner      ┃
+┃                                                      ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+HEREDOC
+# Exchange version and copyright with the current valid data.
+printf "%s" "${VAR}" | \
+    sed 's/VERSION/'"${_VERSION}"'/;s/COPYRIGHT/'"${_COPYRIGHT}"'/'
+# Print an empty line.
+printf "%b" "\n"
+# Reset the color to standard.
+echo -ne "\e[49m"
+# Write a message into the terminal window.
+echo -e "\n\e[101mExit program with CTRL+C\e[49m\n"
+# Return the exit code 0.
+return 0
+}
+
+# ******************************************************************************
+# Function trap_sigint
+# Function called by trap
+# ******************************************************************************
+trap_sigint () {
+    local ch=" "
+    local str=$(printf '%*s' 67 | tr ' ' "${ch}")
+    printf "\r%s%s" "SIGINT caught" "${str}"
+    printf "\r%s\n" "You pressed CTRL+C"
+    printf "\r%s\n" "Have a nice day. Bye!"
+    tput cnorm
+    exit 130
+}
+
+# ==============================================================================
+# Function wrong_selection
+# ==============================================================================
+wrong_selection () {
+    # Write a message into the terminal window.
+    printf "\n%s\n" "${str3}"
+    # Sleep a little bit.
+    sleep 0.5
+    # Reset the terminal window.
+    reset
+    # Print the header.
+    header
+    # Get the Interface.
+    get_iface
+    # Return the exit code 0.
+    return 0
+}
+
+# ==============================================================================
+# Function get_iface
+# ==============================================================================
+get_iface () {
+    # Declare the local array.
+    declare -A array
+    # Define the local variables.
+    local ifaces=""
+    local count=0
+    # Set the local strings.
+    local str0="Available WLAN Devices:"
+    local str1="======================="
+    local str2="Make your selection followed by ENTER:"
+    local str3="Wrong selection!"
+    # Get the name of the interfaces.
+    ifaces=$(iw dev | awk '$1=="Interface"{print $2}')
+    # Print a headline into the terminal window.
+    printf "%s\n%s\n\n" "${str0}" "${str1}"
+    # List the interfaces in the terminal window.
+    while IFS="" read -r iface
+    do
+        if [[ "$(ifconfig | grep "${iface}")" != "" ]]; then
+            if [[ ! -z "$(iwconfig 2>/dev/null "${iface}" | grep -o "Mode:Managed")" ]]; then
+                # Increment the counter.
+                ((count=count+1))
+                # Add a pair of data to the array.
+                array+=(["${count}"]="${iface}")
+                # Write the pair into the terminal window.
+                printf "%s  =  %s\n" "${count}" "${iface}"
+            fi
+        fi
+    done < <(echo "${ifaces}")
+    # Read the selection.
+    printf "\n%s " "${str2}"
+    read -r selection
+    # Check the selection.
+    if [[ -z "${selection//[0-9]/}" ]]; then
+        if [[ "${selection}" -gt "${count}" ]] || \
+           [[ "${selection}" -lt "1" ]]; then
+            wrong_selection
+        fi
+    else
+        wrong_selection
+    fi
+    # Set the wlan interface variable.
+    IFACE="${array[${selection}]}"
+    # Return the exit code 0.
+    return 0
+}
+
+# ==============================================================================
+# Function get_bssidlist
+# ==============================================================================
+get_bssidlist () {
+    # Reset the BSSID array.
+    BSSIDLIST=()
+    # Initialise the local variables.
+    local ready=false
+    local eod=false
+    local mac=''
+    local cell=''
+    local chn=''
+    local freq=''
+    local qual=''
+    local rssi=''
+    local ssid=''
+    local mode=''
+    local enc=''
+    local type=''
+    local nextcell=2
+    local maclist=()
+    # Read data from Linux command line by line.
+    while IFS="" read -r line
+    do
+        if [[ "${line}" == *"Interface doesn't support scanning."* ]]; then
+            # Write message into the terminal window.
+            printf "\n%s\n" "Interface ${IFACE} error. Bye!"
+            # Exit script.
+            exit 32
+        fi
+        if [[ "${line}" == "" ]]; then
+            # Set end of data to true.
+            eod=true
+        fi
+        # Get the cell number and the MAC address.
+        [[ "${line}" =~ Address: ]] && {
+            cell=$(echo "${line}" | \
+                   sed -E '{s/^[[:space:]]*Cell ([0-9]{2}).*$/\1/; s/^0//}')
+            mac=${line##*ess: }
+            maclist+=("${mac}")
+        }
+        # Get the frequency and the channel.
+        [[ "${line}" =~ Frequency: ]] && {
+            freq=${line##*ncy:}
+            freq=${freq%% *}
+            chn=${line##*nel }
+            chn=${chn:0:$((${#chn}-1))};
+        }
+        # Get the quality and the RSSI.
+        [[ "${line}" =~ Quality ]] && {
+            qual=${line##*ity=}
+            qual=${qual%% *}
+            rssi=${line##*vel=}
+            rssi=${rssi%% *}
+        }
+        # Get the access status.
+        [[ "${line}" =~ Encryption ]] && {
+            enc=${line##*key:}
+        }
+        # Get the ESSID.
+        [[ "${line}" =~ ESSID: ]] && {
+            ssid=${line##*SID:};
+            ssid=${ssid//\"/}
+            if  echo "${ssid}" | grep -q '\x00'; then
+                len=$(echo "${ssid}" | grep -o '\x00' | wc -l)
+                ssid="<length ${len}>"
+            fi
+            if  [[ "${ssid}" == "" ]]; then
+                ssid="<length 0>"
+            fi
+            ssid=${ssid:0:32}
+        }
+        # Get the AP mode.
+        [[ "${line}" =~ Mode: ]] && {
+            mode=${line##*ode:}
+        }
+        # Get the last beacon.
+        [[ "${line}" =~ "Last beacon:" ]] && {
+            lb=$(echo "${line##*con:}" | sed '{ s/ ago//; s/ms/ ms/ }')
+        }
+        # Get the encryption type.
+        [[ "${line}" =~ "IE: WPA Version 1" ]] && {
+            if [[ "${type}" != "" ]]; then
+                type="${type}, WAP"
+            else
+                type="WAP"
+            fi
+        }
+        [[ "${line}" =~ "IE: IEEE 802.11i/WPA2 Version 1" ]] && {
+            if [[ "${type}" != "" ]]; then
+                type="${type}, WAP2"
+            else
+                type="WAP2"
+            fi
+        }
+        # Check on early end of data.
+        if [[ "${cell}" -eq "1" && "${eod}" == "true" ]]; then
+            ready=true
+        fi
+        # Check on end of data.
+        if [[ "${cell}" -eq "${nextcell}" && "${eod}" != "{true}" ]]; then
+            mac=${maclist[-2]}
+            ready=true
+            ((nextcell++))
+        fi
+        # Add the data to the array.
+        if [[ "${ready}" == true ]]; then
+            if [[ "${type}" == "" ]]; then
+                type="n/a"
+            fi
+            if [[ "${LIMIT}" == "" ]]; then
+                ap=$(printf "%s" \
+                   "$mac;$chn;$freq;$rssi;$qual;$ssid;$mode;$enc;$type;$lb")
+                BSSIDLIST+=("${ap}")
+            else
+                if [[ "${rssi}" -gt "${LIMIT}" ]]; then
+                    ap=$(printf "%s" \
+                       "$mac;$chn;$freq;$rssi;$qual;$ssid;$mode;$enc;$type;$lb")
+                    BSSIDLIST+=("${ap}")
+                fi
+            fi
+            # Reset the local variables.
+            mac=''; chn=''; freq=''; rssi=''; qual='';
+            ssid=''; mode=''; enc=''; type=''
+            ready=false
+        fi
+    done < <(iwlist "${IFACE}" scan 2>&1)
+    # Return the exit code 0.
+    return 0
+}
+
+# ==============================================================================
+# Function get_best_bssid
+# ==============================================================================
+get_best_bssid () {
+    # Set the local variables.
+    local rssi_ref="-256"
+    local bssid_ref="n/a"
+    local rssi_mac=""
+    local bssid_mac=""
+    # Loop over the array.
+    for mac in "${BSSIDLIST[@]}"
+    do
+        rssi_mac=$(echo "${mac}" | awk -F ';' '{print $4}')
+        if [[ "${rssi_mac}" -gt "${rssi_ref}" ]]; then
+            rssi_ref="${rssi_mac}"
+            bssid_mac=$(echo "${mac}" | awk -F ';' '{print $1}')
+        fi
+    done
+    # Output the result.
+    echo -n "${bssid_mac}"
+    # Return the exit code 0.
+    return 0
+}
+
+# ==============================================================================
+# Function print_data
+# ==============================================================================
+print_data () {
+    # Initialise the local variable char.
+    local ch='='
+    # Set the header strings.
+    fs1=$(printf '%*s' 17 | tr ' ' "${ch}")
+    fs2=$(printf '%*s' 3 | tr ' ' "${ch}")
+    fs3=$(printf '%*s' 5 | tr ' ' "${ch}")
+    fs4=$(printf '%*s' 4 | tr ' ' "${ch}")
+    fs5=$(printf '%*s' 5 | tr ' ' "${ch}")
+    fs6=$(printf '%*s' 32 | tr ' ' "${ch}")
+    fs7=$(printf '%*s' 6 | tr ' ' "${ch}")
+    fs8=$(printf '%*s' 3 | tr ' ' "${ch}")
+    fs9=$(printf '%*s' 10 | tr ' ' "${ch}")
+    # Get date and time.
+    dt=$(date +'%m/%d/%Y %H:%M:%S.%3N')
+    # Clear the screen.
+    clear
+    # Print date an time.
+    printf "%s %s%b" "Last update:" "${dt}" "\n\n"
+    # Print the data to the screen.
+    printf "%-21s%-7s%-9s%-8s%-9s%-36s%-10s%-7s%-10s\n" \
+           "BSSID" "CHN" "FREQ" "RSSI" "QUAL" \
+           "ESSID" "MODE" "ENC" "ENCRYPTION"
+    printf "%-21s%-7s%-9s%-8s%-9s%-36s%-10s%-7s%-10s\n" \
+           "${fs1}" "${fs2}" "${fs3}" "${fs4}" "${fs5}" \
+           "${fs6}" "${fs7}" "${fs8}" "${fs9}"
+    # Loop over the array without sorting the data.
+    VAR=$(for ele in "${BSSIDLIST[@]}"
+    do
+        bssid_ele=$(echo "${ele}" | awk -F ';' '{print $1}')
+        if [[ "${bssid_ele}" == "${bssid_ref}" ]]; then
+            temp=$(echo "${ele}" | \
+                awk -F ';' '{printf "%-21s",$1; printf "%-7s",$2;
+                             printf "%-9s",$3; printf "%-8s",$4;
+                             printf "%-9s", $5; printf "%-36s",$6;
+                             printf "%-10s",$7; printf "%-7s",$8;
+                             printf "%-10s\n",$9 }')
+            printf "%s" "${temp}"
+        fi
+    done)
+    printf "%b%s%b" "\e[42m" "${VAR}" "\e[49m"
+    # Loop over the array and sort the data.
+    VAR=$(for ele in "${BSSIDLIST[@]}"
+    do
+        bssid_ele=$(echo "${ele}" | awk -F ';' '{print $1}')
+        if [[ "${bssid_ele}" != "${bssid_ref}" ]]; then
+            printf "%s" "${ele}" | \
+                awk -F ';' '{printf "%-21s",$1; printf "%-7s",$2;
+                             printf "%-9s",$3; printf "%-8s",$4;
+                             printf "%-9s",$5; printf "%-36s",$6;
+                             printf "%-10s",$7; printf "%-7s",$8;
+                             printf "%-10s\n",$9 }'
+            printf "%b" "\n\n"
+        fi
+    done | sort -u -k4 -k5)
+    # Print the sorted data to the screen.
+    printf "%s%b" "${VAR}" "\n"
+    # Write a message into the terminal window.
+    echo -ne "\n\e[100mExit the program with CTRL+C\e[49m"
+    # Return exit code 0.
+    return 0
+}
+
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# Function main_loop
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+main_loop () {
+    # Run an infinite loop.
+    while true
+    do
+        # Try to get a list with BSSIDs.
+        get_bssidlist
+        # Check if data are available.
+        if (( ${#BSSIDLIST[@]} != 0 )); then
+            # Get the best BSSID from list.
+            bssid_ref=$(get_best_bssid)
+            # Print the collected data into the terminal window.
+            print_data
+            # Sleep a little bit.
+            sleep "${TIME_SCAN}"
+            # Set value of PRINTOUT.
+            PRINTOUT=true
+        else
+            if [[ "${PRINTOUT}" == false ]]; then
+                # Clear the terminal window.
+                clear
+                # Write a message into the terminal window.
+                printf "%s\n" "Could not get data from the device ..."
+                # Sleep a little bit.
+                sleep "${TIME_WAIT}"
+            fi
+        fi
+    done
+    # Return the exit code 0.
+    return 0
+}
+
+# ##############################################################################
+# Main Script Section
+# ##############################################################################
+
+# Trap SIGINT.
+trap 'trap_sigint' SIGINT
+
+# Reset the screen.
+reset
+
+# Hide the cursor.
+tput civis
+
+# Write the header.
+header
+
+# Select the interface.
+get_iface
+
+# Write a message into the terminal window.
+echo -e "\nPlease wait. Data will be collected."
+
+# Run the main loop.
+main_loop
+
+# Show the cursor.
+tput cnorm
+
+# Exit the script without error.
+exit 0
