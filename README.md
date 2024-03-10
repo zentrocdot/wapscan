@@ -39,6 +39,10 @@ __      __ __ _  _ __   ___   ___   __ _  _ __
 > [!NOTE]
 > The current version is developed on <code>Linux Mint 21.3 (Virginia)</code>. It should also be runnable without restrictions on <code>Debian 12 (Bookworm)</code>, <code>Ubuntu Jammy Jellyfish LTS (22.04)</code> and <code>Raspbian 12 (Bookworm)</code>.
 
+## Introductory Words
+
+<p align="justify">Before I started the development I was looking for a good name. After finding a name I checked if there will be a package with the same name [1]. No match said to me that this will be a good name.</p>
+
 ## Short Description
 
 <p align="justify">The wireless access point scanner is listing 2.4 GHz as well as 5 GHz access points. The hardware must have the capability for dualband should be clear. Three versions of the wireless access point scanner can be used.</p>
@@ -54,10 +58,6 @@ __      __ __ _  _ __   ___   ___   __ _  _ __
 ## Prerequisites
 
 <p align="justify">The wireless access point scanner will run on <code>Linux Mint</code> and should be also run on <code>Linux Ubuntu</code> and also on <code>Debian</code> like operating systems. I developed the scanner on <code>Linux Mint</code> for usage on <code>Linux Mint</code>.</p>
-
-## Introductory Words
-
-<p align="justify">Before I started the development I was looking for a good name. After finding a name I checked if there will be a package with the same name [1]. No match said to me that this will be a good name.</p>
 
 ## Repository Organisation 
 
