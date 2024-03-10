@@ -24,6 +24,8 @@ __      __ __ _  _ __   ___   ___   __ _  _ __
 
 ## Foreword
 
+<p align="justify">A WLAN Scanner is sometimes called a WLAN sniffer. In the context of this package I prefer the naming WLAN Scanner. WLAN sniffing is hacker-like or is used in connection with penetration testing. I use the WLAN scanner to check and optimize my WLAN working environment.</p>
+
 <p align="justify">The work on the <code>Wireless Access Point Scanner</code> started in the year 2017. The goal was to program a simple wlan scanner that has the ability to address different wlan hardware devices. After invokation the wireless access point scanner is asking which wlan device should be used for scanning. Then the data will be collected and afterwards pretty printed in the terminal window which after that is contiously updated.</p>
     
 <p align="justify">Next to the wireless access point scanner I wrote over the years a bunch of scripts related to wifi or wlan. For the wireless access point scanner I created a script which automatically prepares a package for packaging as <code>DEB</code> package. That knowledge how to do was the base for my first steps on Launchpad.</p>
