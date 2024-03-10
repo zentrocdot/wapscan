@@ -18,8 +18,8 @@
 
 ## References
 
-[no references yet
-](https://launchpad.net/~zentrocdot/+archive/ubuntu/wapscan-cli/+packages)
+[1] launchpad.net/~zentrocdot/+archive/ubuntu/wapscan-cli/+packages
+
 <p align="justify"></p>
 
 <p align="justify"></p>
