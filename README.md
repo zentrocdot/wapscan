@@ -88,6 +88,10 @@ The first data is collected and than the WLAN environment is scanned continously
 
 <p align="justify">I use the tools iw and iwlist. For hardware identification iw is well suited and for WLAN scanning iwlist.</p>
 
+## Development
+
+<p align="justify">I started the development on wapscan implementing pure basic functionality. Current improvements are first tested with wapscan. When the program works as expected I am changing wapscan_beacon and wapscan_oui in a way, that they work like wapscan.</p>
+
 ## Installation
 
 <p align="justify">The easiest way for the future is to use PPA from Launchpad.</p>
