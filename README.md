@@ -13,7 +13,7 @@ __      __ __ _  _ __   ___   ___   __ _  _ __
 ### Announcement
 
 > [!TIP]
-> <p align="justify"><code>wapscan</code> is now available on <a href="https://launchpad.net/~zentrocdot/+archive/ubuntu/wapscan-cli"><code>Launchpad</code></a>. For more information about this topic see also the section </code><b>Installation</b>.</p>
+> <p align="justify"><code>wapscan</code> is now available on <a href="https://launchpad.net/~zentrocdot/+archive/ubuntu/wapscan-cli">Launchpad</a>. For more information about this topic see also the section </code><b>Installation</b>.</p>
 
 # README
 
