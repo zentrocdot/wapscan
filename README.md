@@ -234,7 +234,11 @@ sudo apt-get install wapscan
             |     \ - one or more whitespaces [space and/or tab]
             \ - one or more whitespaces [space and/or tab]
    
- <p align="justify">in the near future a user can use a self created oui.txt file for testing or other purpose.</p>
+<p align="justify">in the near future a user can use a self created oui.txt file for testing or other purpose.</p>
+
+## Troubleshooting
+
+<p align="justify">First of all make sure that you have super user rights and that you can use sudo.</p>
 
 # References
 
