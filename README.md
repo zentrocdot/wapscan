@@ -24,17 +24,17 @@ __      __ __ _  _ __   ___   ___   __ _  _ __
 
 ## Foreword
 
-<p align="justify">A WLAN Scanner is sometimes called a WLAN sniffer. In the context of this package I prefer the naming WLAN Scanner. WLAN sniffing is hacker-like or is used in connection with penetration testing. I use the WLAN scanner to check and optimize my WLAN working environment.</p>
+<p align="justify">A WLAN Scanner is sometimes called a WLAN sniffer. In the context of this package I prefer the naming WLAN scanner. WLAN sniffing is hacker-like or is used in connection with penetration testing. I use the WLAN scanner to check and optimise my WLAN working environment.</p>
 
 <p align="justify">The work on the <code>Wireless Access Point Scanner</code> started in the year 2017. The goal was to program a simple wlan scanner that has the ability to address different wlan hardware devices. After invokation the wireless access point scanner is asking which wlan device should be used for scanning. Then the data will be collected and afterwards pretty printed in the terminal window which after that is contiously updated.</p>
     
-<p align="justify">Next to the wireless access point scanner I wrote over the years a bunch of scripts related to wifi or wlan. For the wireless access point scanner I created a script which automatically prepares a package for packaging as <code>DEB</code> package. That knowledge how to do was the base for my first steps on Launchpad.</p>
+<p align="justify">Next to the wireless access point scanner I wrote over the years a bunch of scripts related to wifi or wlan. For the wireless access point scanner I created a script which automatically prepares a package for packaging as <code>DEB</code> package. That knowledge how to do was the base for my first steps on <code>Launchpad</code>.</p>
 
-<p align="justify">As expected it is a big difference between writing a working script or building a DEB package from that script. It is even more complicated to use a platform like Launchpad for publishing.
+<p align="justify">As expected it is a big difference between writing a working script or building a DEB package from that script. It is even more complicated to use a platform like <code>Launchpad</code> for publishing.
 
-<p align="justify">The first package I am releasing is in the first shot for educational purposes. In the following versions I will move on to productive versions.</p>
+<p align="justify">The first package I have released one week ago is in the first shot for educational purposes. In the current and following versions I will move on to productive versions.</p>
 
-<p align="justify">At the time I started writing the program, iwlist was still more common than iw. This limits the analysis possibilities. Nevertheless one can see the important things related to WLAN.</p>
+<p align="justify">At the time I started writing the program in the year 2017, iwlist was still more common than iw. This limits the analysis possibilities. Nevertheless one can see the important things related to WLAN.</p>
 
 > [!NOTE]
 > The current version is developed on <code>Linux Mint 21.3 (Virginia)</code>. It should also be runnable without restrictions on <code>Debian 12 (Bookworm)</code>, <code>Ubuntu Jammy Jellyfish LTS (22.04)</code> and <code>Raspbian 12 (Bookworm)</code>.
@@ -47,7 +47,7 @@ __      __ __ _  _ __   ___   ___   __ _  _ __
 2. wapscan_beacon
 4. wapscan_oui
   
-<p align="justify">wapscan is the base apllication. wapscan_beacon and wapscan_oui offer further informations. Sometimes it is of interest how often an access point is sending the beacon. This is monitored by wapscan_beacon. It can also be of interest to know the hardware on which the access point runs. The is realised by wapscan_oui.</p>
+<p align="justify"><code>wapscan</code> is the base apllication. wapscan_beacon and wapscan_oui offer further informations. Sometimes it is of interest how often an access point is sending the beacon. This is monitored by wapscan_beacon. It can also be of interest to know the hardware on which the access point runs. The is realised by wapscan_oui.</p>
 
 <p align="justify">The wireless access point scanner is well tested on für wlan on 2.4 GHz as well as 5 GHz. Both bands are monitored as expected on differnent hardware devices.</p>
 
@@ -129,14 +129,14 @@ sudo apt-get install wapscan
 
     Could not get data from the device ...
 
-<p align="justify">in operation then there are two reasons possible.</p>
+<p align="justify">in operation then there are two possible reasons.</p>
 
 1. In general there are not data from hardware
 2. Same hardware is used multiple times
 
 ## Testing
 
-<p align="justify">The scripts have been tested on different Debian derivatives and versions and have been executable. The current restrictions apply to the installation of the DEB package.</p>
+<p align="justify">The scripts have been tested on different Debian derivatives and versions and have been executable.</p>
 
 # Limitation
 
@@ -166,10 +166,6 @@ sudo apt-get install wapscan
 
 <p align="justify">Since I call sudo from within the program now, it is necessary to check how I can separate the first call of wapscan from the second sudo call of wapscan. This is a similar process to my daemonising process of a daemon script.</p>
 
-## Outlook
-
-<p align="justify">to-do ...</p>
-
 ## Spin-Off
 
 <p align="justify">Write another program using other tool for extracting mor informations from a scan.</p>
@@ -195,6 +191,8 @@ sudo apt-get install wapscan
 <p align="justify">I use the tools iw and iwlist. For hardware identification iw is well suited and for WLAN scanning iwlist.</p>
 
 ## Typical Response from IWLIST
+
+<p align="justify">iwlist output looks like:</p>
 
     wly97dfd02de607  Scan completed :
               Cell 01 - Address: 85:BE:26:40:71:25
@@ -227,6 +225,8 @@ sudo apt-get install wapscan
 
 ## Typical Response from IW
 
+<p align="justify">iwlist output looks like:</p>
+
     phy#0
 	       Interface wlq6s1
 		      ifindex 2
@@ -246,6 +246,10 @@ sudo apt-get install wapscan
             \ - one or more whitespaces [space and/or tab]
    
 <p align="justify">in the near future a user can use a self created oui.txt file for testing or other purpose.</p>
+
+## Compatibility
+
+<p align="justify">As long as iwlist as well as iw do not change again the structure of the output wapscan will work. As noted the program worked on different operating systems from the year 2017 upt to the year 2024.</p>
 
 ## Note on script usage
 
