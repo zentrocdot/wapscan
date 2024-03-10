@@ -190,7 +190,7 @@ sudo apt-get install wapscan
 
 <p align="justify">I use the tools iw and iwlist. For hardware identification iw is well suited and for WLAN scanning iwlist.</p>
 
-## Typical Response from IWLIST
+### Typical Response from IWLIST
 
 <p align="justify">iwlist output looks like:</p>
 
@@ -223,7 +223,7 @@ sudo apt-get install wapscan
                         IE: Unknown: DD1B00905C3406000000000000000000000000000000000000000000
                         IE: Unknown: DD0700E05C0202E0
 
-## Typical Response from IW
+### Typical Response from IW
 
 <p align="justify">iwlist output looks like:</p>
 
