@@ -290,13 +290,16 @@ sudo apt-get install wapscan
 
 [14]    www&#8203;.systutorials.com/docs/linux/man/1-get-oui/
 
-<p align="center">
-<h1>You can support the further development of this instrument.</h1>
+<p align="center" style="font-size:30px;">
+You can support the further development of this tool.
 </p>
 
 <hr width="100%" size="2">
 
-<p align="center">I loved the time when you could get also a hamburger :hamburger: for one euro!</p>
+
+<p align="center">
+I loved the time when you could get also a hamburger :hamburger: for one euro!
+</p>
 
 <p align="center">
 <a target="_blank" href="https://www.buymeacoffee.com/zentrocdot"><img src="\IMAGES\greeen-button.png" alt="Buy Me A Coffee" height="41" width="174"></a>
