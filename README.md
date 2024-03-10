@@ -30,9 +30,11 @@ __      __ __ _  _ __   ___   ___   __ _  _ __
     
 <p align="justify">Next to the wireless access point scanner I wrote over the years a bunch of scripts related to wifi or wlan. For the wireless access point scanner I created a script which automatically prepares a package for packaging as <code>DEB</code> package. That knowledge how to do was the base for my first steps on Launchpad.</p>
 
-<p align="justify">As expected it is a big difference between writing a working script or building a DEB package from that script. It is even more complicated to use a platform like Launchpad for publishing.</p>
+<p align="justify">As expected it is a big difference between writing a working script or building a DEB package from that script. It is even more complicated to use a platform like Launchpad for publishing.
 
 <p align="justify">The first package I am releasing is in the first shot for educational purposes. In the following versions I will move on to productive versions.</p>
+
+<p align="justify">At the time I started writing the program, iwlist was still more common than iw. This limits the analysis possibilities. Nevertheless one can see the important things related to WLAN.</p>
 
 ## Short Description
 
