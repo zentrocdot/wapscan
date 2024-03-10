@@ -113,6 +113,12 @@ sudo apt-get install wapscan
 
 <p align="justify">Open issue is, that I not know if the zst compression, which was introduced with Debian 12, is at all a problem for elder versions.</p>
 
+## Uninstallation
+
+<p align="justify">Uninstallation can be done doing:</p>
+
+    sudo apt-get remove --purge wapscan
+
 ## Comments on operation
 
 <p align="justify">Collecting WLAN data the first time can take up to 5 seconds.</p>
