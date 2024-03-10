@@ -241,6 +241,13 @@ sudo apt-get install wapscan
    
 <p align="justify">in the near future a user can use a self created oui.txt file for testing or other purpose.</p>
 
+## Note on script usage
+
+<p align="justify">In the first version, the script made itself executable during the first run. This can be realised like this:</p>
+
+    # Make the script executable.
+    if [[ ! -x "$0" ]]; then chmod +x "$0"; fi
+
 ## Troubleshooting
 
 <p align="justify">First of all make sure that you have super user rights and that you can use sudo.</p>
