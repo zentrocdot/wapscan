@@ -77,20 +77,14 @@ First, you choose the WLAN device for scanning:
 <center>
 <img src="\IMAGES\menu.png" alt="Alt text" title="Optional title">
 </center>
+Image for presentation purposes
 
 The first data is collected and than the WLAN environment is scanned continously.
 
 <center>
 <img src="\IMAGES\scan.png" alt="Alt text" title="Optional title">
 </center>
-
-## Program Technical Background
-
-<p align="justify">To avoid reinventing the wheel, I always look for the simplest solutions. I found the tools available at command level suitable for a WLAN scanner.</p>
-
-<p align="justify">I found the tools available at command level suitable for a WLAN scanner.</p>
-
-<p align="justify">I use the tools iw and iwlist. For hardware identification iw is well suited and for WLAN scanning iwlist.</p>
+Image for presentation purposes
 
 ## Development
 
@@ -139,6 +133,14 @@ sudo apt-get install wapscan
 
 <p align="justify">It looks as if I have been able to overcome a known limitation. Until now, using the same hardware two or more times has been a problem when collecting and displaying data. In the current solution, the program waits until it has received data and prints it in the terminal window. To make this transparent, I have added a time of the last scan to the output on the screen. </p>
 
+## Bugs
+
+<p align="justify">No bugs are known yet.</p>
+
+## Known Restriction
+
+<p align="justify">One of the most important restrictions is the fact that sudo rights are required for execution. This is due to the use of iwlist in the background. iwlist only works as root.</p>
+
 ## To-Do
 
 ### List of things to do
@@ -175,13 +177,13 @@ sudo apt-get install wapscan
 
 <p align="justify">First the output structure of iwlist was different on different operating systems. Second the naming of the wlan devices was different on different operating systems.</p>
 
-## Known Restriction
+## Program Technical Background
 
-<p align="justify">One of the most important restrictions is the fact that sudo rights are required for execution. This is due to the use of iwlist in the background. iwlist only works as root.</p>
+<p align="justify">To avoid reinventing the wheel, I always look for the simplest solutions. I found the tools available at command level suitable for a WLAN scanner.</p>
 
-## Limitations
+<p align="justify">I found the tools available at command level suitable for a WLAN scanner.</p>
 
-<p align="justify">wapscan can only be executed once when using the same hardware. Otherwise there will be conflicts in the form of data being displayed alternately.</p>
+<p align="justify">I use the tools iw and iwlist. For hardware identification iw is well suited and for WLAN scanning iwlist.</p>
 
 ## Typical Response from IWLIST
 
