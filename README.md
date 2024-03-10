@@ -116,6 +116,8 @@ sudo apt-get install wapscan
 
 ## Comments on operation
 
+<p align="justify">Collecting WLAN data the first time can take up to 5 seconds.</p>
+
 <p align="justify">You can invoke the program with or without using sudo. If you are using sudo the program asked for the hardware devices. If you ar not using sudo the program first needs the sudo permission for operation.</p>
 
 <p align="justify">If you see</p>
