@@ -112,17 +112,33 @@ sudo apt-get install wapscan
 
 <p align="justify">The scripts have been tested on different Debian derivatives and versions and have been executable. The current restrictions apply to the installation of the DEB package.</p>
 
+# Limitation
+
+<p align="justify">It looks as if I have been able to overcome a known limitation. Until now, using the same hardware two or more times has been a problem when collecting and displaying data. In the current solution, the program waits until it has received data and prints it in the terminal window. To make this transparent, I have added a time of the last scan to the output on the screen. </p>
+
 ## To-Do
 
-<p align="justify">A review of the code is necessary. Since the program is now accessible to the general public, a few additional modifications are also necessary.</p>
+### List of things to do
 
-<p align="justify">And then there are some things on my to-do list for the improvement of the wapscan code. Due to a lack of time the realisation will take a while.</p>
+1. Review the code on problems, typing errors and bugs
+2. Improvement of the code
+3. Optimisation of the code
+4. Catch message "No scan results" from interface
+5. Add a command line evaluation using getopt
+
+### Further things to do
+
+<p align="justify">I had not yet checked whether I could obtain further information from the Information Elements. This is still to be done.</p>
 
 <p align="justify">Since I call sudo from within the program now, it is necessary to check how I can separate the first call of wapscan from the second sudo call of wapscan. This is a similar process to my daemonising process of a daemon script.</p>
 
 ## Outlook
 
-<p align="justify">As soon as I'm done here in the repository, I'll see if a PPA is suitable for my first application.</p>
+<p align="justify">to-do ...</p>
+
+## Spin-Off
+
+<p align="justify">Write another program using other tool for extracting mor informations from a scan.</p>
 
 ## Planned Further Developments
 
@@ -136,7 +152,7 @@ sudo apt-get install wapscan
 
 <p align="justify">First the output structure of iwlist was different on different operating systems. Second the naming of the wlan devices was different on different operating systems.</p>
 
-## Known Restrictions
+## Known Restriction
 
 <p align="justify">One of the most important restrictions is the fact that sudo rights are required for execution. This is due to the use of iwlist in the background. iwlist only works as root.</p>
 
