@@ -258,6 +258,15 @@ sudo apt-get install wapscan
     # Make the script executable.
     if [[ ! -x "$0" ]]; then chmod +x "$0"; fi
 
+## Dependencies
+
+1. wireless-tools
+2. iw
+3. sed
+4. gawk
+5. bash
+6. util-linux
+
 ## Troubleshooting
 
 <p align="justify">First of all make sure that you have super user rights and that you can use sudo.</p>
