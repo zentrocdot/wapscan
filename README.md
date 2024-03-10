@@ -114,6 +114,19 @@ sudo apt-get install wapscan
 
 <p align="justify">Open issue is, that I not know if the zst compression, which was introduced with Debian 12, is at all a problem for elder versions.</p>
 
+## Comments on operation
+
+<p align="justify">You can invoke the program with or without using sudo. If you are using sudo the program asked for the hardware devices. If you ar not using sudo the program first needs the sudo permission for operation.</p>
+
+<p align="justify">If you see</p>
+
+    Could not get data from the device ...
+
+<p align="justify">in operation then there are two reasons possible.</p>
+
+1. In general there are not data from hardware
+2. Same hardware is used multiple times
+
 ## Testing
 
 <p align="justify">The scripts have been tested on different Debian derivatives and versions and have been executable. The current restrictions apply to the installation of the DEB package.</p>
