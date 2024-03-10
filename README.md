@@ -290,9 +290,9 @@ sudo apt-get install wapscan
 
 [14]    www&#8203;.systutorials.com/docs/linux/man/1-get-oui/
 
-<p align="center"><big>
+<p align="center"><big><big>
 <b>You can support the further development of this tool.</b>
-</big>big></p>
+</big></big></p>
 
 <hr width="100%" size="2">
 
