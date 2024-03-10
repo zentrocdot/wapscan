@@ -293,7 +293,7 @@ sudo apt-get install wapscan
 ---
 
 <p align="center"><big><big>
-<b>You can support the further development of this tool.</b>
+<b>You can support the further development of this tool if you like.</b>
 </big></big></p>
 
 <hr width="100%" size="2">
