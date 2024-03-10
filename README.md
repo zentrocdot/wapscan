@@ -37,7 +37,7 @@ __      __ __ _  _ __   ___   ___   __ _  _ __
 <p align="justify">At the time I started writing the program, iwlist was still more common than iw. This limits the analysis possibilities. Nevertheless one can see the important things related to WLAN.</p>
 
 > [!NOTE]
-> The current version is developed on Linux Mint 21.3 (Virginia). It should also be runnable without restrictions on Debian 12 (Bookworm), Ubuntu Jammy Jellyfish LTS (22.04) and Raspbian 12 (Bookworm).
+> The current version is developed on <code>Linux Mint 21.3 (Virginia)</code>. It should also be runnable without restrictions on <code>Debian 12 (Bookworm)</code>, <code>Ubuntu Jammy Jellyfish LTS (22.04)</code> and </code>Raspbian 12 (Bookworm)</code>.
 
 ## Short Description
 
