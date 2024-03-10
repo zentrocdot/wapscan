@@ -36,6 +36,9 @@ __      __ __ _  _ __   ___   ___   __ _  _ __
 
 <p align="justify">At the time I started writing the program, iwlist was still more common than iw. This limits the analysis possibilities. Nevertheless one can see the important things related to WLAN.</p>
 
+> [!NOTE]
+> The current version is developed on Linux Mint 21.3 (Virginia). It should also be runnable without restrictions on Debian 12 (Bookworm), Ubuntu Jammy Jellyfish LTS (22.04) and Raspbian 12 (Bookworm).
+
 ## Short Description
 
 <p align="justify">The wireless access point scanner is listing 2.4 GHz as well as 5 GHz access points. The hardware must have the capability for dualband should be clear. Three versions of the wireless access point scanner can be used.</p>
@@ -133,13 +136,13 @@ sudo apt-get install wapscan
 
 <p align="justify">It looks as if I have been able to overcome a known limitation. Until now, using the same hardware two or more times has been a problem when collecting and displaying data. In the current solution, the program waits until it has received data and prints it in the terminal window. To make this transparent, I have added a time of the last scan to the output on the screen. </p>
 
-## Bugs
-
-<p align="justify">No bugs are known yet.</p>
-
 ## Known Restriction
 
 <p align="justify">One of the most important restrictions is the fact that sudo rights are required for execution. This is due to the use of iwlist in the background. iwlist only works as root.</p>
+
+## Bugs
+
+<p align="justify">No bugs are known yet.</p>
 
 ## To-Do
 
