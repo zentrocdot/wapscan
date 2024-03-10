@@ -290,12 +290,11 @@ sudo apt-get install wapscan
 
 [14]    www&#8203;.systutorials.com/docs/linux/man/1-get-oui/
 
-<p align="center" style="font-size:30px;">
-You can support the further development of this tool.
-</p>
+<p align="center"><big>
+<b>You can support the further development of this tool.</b>
+</big>big></p>
 
 <hr width="100%" size="2">
-
 
 <p align="center">
 I loved the time when you could get also a hamburger :hamburger: for one euro!
