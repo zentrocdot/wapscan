@@ -159,6 +159,7 @@ sudo apt-get install wapscan
 3. Optimisation of the code
 4. Catch message "No scan results" from interface
 5. Add a command line evaluation using getopt
+6. Add used hardware device to output in terminal window
 
 ### Further things to do
 
