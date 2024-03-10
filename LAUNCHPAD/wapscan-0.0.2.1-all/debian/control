@@ -8,6 +8,6 @@ Rules-Requires-Root: no
 
 Package: wapscan
 Architecture: all
-Depends: ${misc:Depends}, wireless-tools, iw, sed, gawk, bash, getopt
+Depends: ${misc:Depends}, wireless-tools, iw, sed, gawk, bash, util-linux
 Description: Wireless Access Point Scanner
  Scanning for nearby wireless access points
