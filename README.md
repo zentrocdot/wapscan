@@ -154,12 +154,18 @@ sudo apt-get install wapscan
 
 ### List of things to do
 
+<p align="justify">This has to be done:</p>
+
 1. Review the code on problems, typing errors and bugs
 2. Improvement of the code
 3. Optimisation of the code
-4. Catch message "No scan results" from interface
-5. Add a command line evaluation using getopt
-6. Add used hardware device to output in terminal window
+4. Add a command line evaluation using getopt
+5. Add used hardware device to output in terminal window
+
+<p align="justify">This has to be checked:</p>
+
+8. Catch error message "No scan results" from interface
+5. Catch error message "Interface doesn't support scanning : Device or resource busy" from interface
 
 ### Further things to do
 
