@@ -1,0 +1,13 @@
+Source: wapscan
+Section: utils
+Priority: optional
+Maintainer: Dr. Peter Netz <zentrocdot@protonmail.com>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.6.2.1
+Rules-Requires-Root: no
+
+Package: wapscan
+Architecture: all
+Depends: ${misc:Depends}, wireless-tools, iw, sed, gawk, bash, util-linux, ncurses-bin
+Description: Wireless Access Point Scanner
+ Scanning for nearby wireless access points

@@ -1,0 +1,61 @@
+.\" Hey, EMACS: -*- nroff -*-
+.\" (C) Copyright 2024 Dr. Peter Netz <zentrocdot@protonmail.com>
+.\"
+.\" First parameter, NAME, should be all caps
+.\" Second parameter, SECTION, should be 1-8, maybe w/ subsection
+.\" other parameters are allowed: see man(7), man(1)
+.\"
+.\" Some roff macros, for reference:
+.\" .nh        disable hyphenation
+.\" .hy        enable hyphenation
+.\" .ad l      left justify
+.\" .ad b      justify to both left and right margins
+.\" .nf        disable filling
+.\" .fi        enable filling
+.\" .br        insert line break
+.\" .sp <n>    insert n+1 empty lines
+.\" for manpage-specific macros, see man(7)
+.TH WAPSCAN 1 "March  6 2024"
+.\" Please adjust this date whenever revising the manpage.
+.SH NAME
+wapscan \- wireless access point scanner
+.SH SYNOPSIS
+.B wapscan
+.RI [ option ]
+.SH DESCRIPTION
+This manual page documents briefly the
+.B wapscan
+command.
+.PP
+.\" TeX users may more comfortable with \fB<whatever>\fP and \fI<whatever>\fP
+.\" escape sequences to invoke bold face and italics, respectively.
+\fBwapscan\fP is a program which is scanning the environment for nearby
+wireless access points. wapscan can work on the dualband. It scans 2.4
+GHz as well as 5 GHz.
+.sp 1
+The program must run as root. This is a requirement of the underlying software
+tools. sudo will be requested from the program. There is no need to start the
+program using sudo.
+.SH OPTION
+These programs follow the usual GNU command line syntax, with long options
+starting with two dashes (`-'). A summary of options is included below. For
+a complete description, see the Info files.
+.TP
+.B \-l
+Set the lower boundary in dbm. A leading minus - for a negative number is
+therefor required e.g -90. After doing so access point less than -90 dbm
+are ignored.
+.SH Author
+Dr. Peter Netz <zentrocdot@protonmail.com>
+.SH REPORTING BUGS
+Report bugs at https://launchpad.net/~zentrocdot/+archive/ubuntu/prime-numbers
+.SH SEE ALSO
+.BR iw (1),
+.BR iwlist (1).
+.br
+.BR arp-scan (1),
+.BR get-oui (1).
+.sp 1
+The programs are documented fully by
+.IR "The Rise and Fall of a Fooish Bar" ,
+available via the Info system.
