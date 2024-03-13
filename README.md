@@ -49,7 +49,8 @@ __      __ __ _  _ __   ___   ___   __ _  _ __
 
 1. wapscan
 2. wapscan_beacon
-4. wapscan_oui
+3. wapscan_oui
+5. wapscan_protocol 
   
 <p align="justify"><code>wapscan</code> is the base apllication. wapscan_beacon and wapscan_oui offer further informations. Sometimes it is of interest how often an access point is sending the beacon. This is monitored by wapscan_beacon. It can also be of interest to know the hardware on which the access point runs. The is realised by wapscan_oui.</p>
 
@@ -199,7 +200,7 @@ sudo apt-get install wapscan
 
 ### Typical Response from IWLIST
 
-<p align="justify">iwlist output looks like:</p>
+<p align="justify">An iwlist output can look like:</p>
 
     wly97dfd02de607  Scan completed :
               Cell 01 - Address: 85:BE:26:40:71:25
@@ -229,6 +230,20 @@ sudo apt-get install wapscan
                         IE: Unknown: DD1E00804C340C181EFF00000000000000000000000000000000000000000000
                         IE: Unknown: DD1B00905C3406000000000000000000000000000000000000000000
                         IE: Unknown: DD0700E05C0202E0
+
+<p align="justify">One can extract following informations on different hardware devices:</p>
+
+* MAC address
+* Frequency
+* Channel
+* Quality
+* Signal Strenght
+* Encryption
+* ESSID 
+* Bit Rates
+* MODE
+* Extra informations
+* Information Elements (IE)
 
 ### Typical Response from IW
 
